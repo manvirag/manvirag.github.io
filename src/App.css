@@ -1,5 +1,8 @@
+/* App.css */
+
 body {
   margin: 0;
+  margin-top: 4%;
   font-family: Arial, sans-serif;
 }
 
@@ -9,31 +12,42 @@ body {
 }
 
 .sidebar {
-  width: 20%;
-  background-color: #f4f4f4;
-  border-right: 2px solid #ccc;
+  width: 25%;
+  background-color: #ffffff; /* Changed to match right section */
+  color: #7f8c8d;
   padding: 20px;
   box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 2%;
 }
 
 .sidebar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .sidebar li {
-  margin-bottom: 10px;
+  text-align: right;
 }
 
 .sidebar a {
   text-decoration: none;
-  color: #333;
-  font-size: 18px;
+  color: #7f8c8d;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 3px 15px;
+  display: inline-block;
 }
 
 .sidebar a.active-link {
   font-weight: bold;
-  color: #007bff;
+  color: #12161B;
+  font-weight: 550;
 }
 
 .content {
@@ -42,3 +56,43 @@ body {
   box-sizing: border-box;
   overflow-y: auto;
 }
+
+.social-links {
+  display: flex;
+  justify-content: right; /* Align items to the start */
+  margin-top: 2%; /* Space above the icons */
+}
+
+.social-links a {
+  margin-right: 10px; /* Reduced space between icons */
+  text-decoration: none; /* Remove underline */
+  padding: 0; /* Remove any default padding */
+}
+
+.social-links a:last-child {
+  margin-right: 15px; /* Remove margin from the last icon */
+}
+
+.social-links a:hover {
+  opacity: 0.7; /* Slightly fade on hover */
+}
+
+.about-me h2 {
+  color: #12161B; /* Match sidebar link color */
+  font-family: 'Playfair Display';
+  margin-top: 4%;
+  margin-bottom: 35px;
+  font-weight: 550;
+  font-size: 56px;
+}
+
+.about-me p {
+  font-size: 18px; /* Adjust paragraph size */
+  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
+  line-height: 1.6; /* Improve readability with line height */
+  font-weight: 200;
+  margin-right: 25%;
+  color: #505454; 
+}
+
+
