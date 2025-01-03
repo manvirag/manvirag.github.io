@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/manvirag.github.io/static/css/main.a9d21ddf.css",
+    "main.js": "/manvirag.github.io/static/js/main.55a61cef.js",
+    "static/media/design.png": "/manvirag.github.io/static/media/design.210b3832bd600c494431.png",
+    "index.html": "/manvirag.github.io/index.html",
+    "main.a9d21ddf.css.map": "/manvirag.github.io/static/css/main.a9d21ddf.css.map",
+    "main.55a61cef.js.map": "/manvirag.github.io/static/js/main.55a61cef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9d21ddf.css",
+    "static/js/main.55a61cef.js"
+  ]
+}
