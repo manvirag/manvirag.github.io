@@ -4,7 +4,7 @@ import designImage from './assets/design.png'
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <img 
         src={designImage} 
         alt="icon" 
@@ -13,6 +13,8 @@ const Home = () => {
           marginTop: '5%', // Add top margin
         }} 
       />
+      <h2>Be humble. Be fearless. Be yourself. </h2>
+      <h2> Remember, everyone regardless of their greatness, beauty, arrogance, judgement etc. will eventually face mortality.</h2>
     </div>
   );
 };

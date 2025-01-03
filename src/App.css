@@ -87,12 +87,166 @@ body {
 }
 
 .about-me p {
-  font-size: 18px; /* Adjust paragraph size */
+  font-size: 16px; /* Adjust paragraph size */
   font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
   line-height: 1.6; /* Improve readability with line height */
-  font-weight: 200;
-  margin-right: 25%;
-  color: #505454; 
+  font-weight: 400;
+  margin-right: 28%;
+  color: #6d7070; 
+}
+
+.blog-detail {
+  margin-left: 2%;
+}
+.spaced-text {
+  word-spacing: 2px; /* Adjust this value to increase or decrease space */
+}
+
+.writing h2 {
+  color: #12161B; /* Match sidebar link color */
+  font-family: 'Playfair Display';
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-bottom: 45px;
+  font-weight: 550;
+  font-size: 56px;
+}
+
+.blog-item hr {
+  border: none; /* Remove default border */
+  border-top: 1px solid #aeb7b7; /* Add a light gray line */
+  margin: 20px 0; /* Space above and below the line */
+  margin-right: 45%;
+
+}
+
+.blog-item {
+  margin-bottom: 20px; /* Space between blog items */
+}
+
+.blog-title {
+  font-size: 22px; /* Title font size */
+  margin-bottom: 5px;
+  font-family: 'Playfair Display';
+  color: #16191e; /* Match sidebar link color */
+  font-weight: 450;
+}
+
+.blog-item h4 {
+  margin-top: 0px;
+  font-size: 15px; /* Subheading font size */
+  color: #6d7070;  /* Lighter color for subheading */
+  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
+  font-weight: lighter;
+}
+
+.blog-item p {
+  font-size: 12px; /* Adjust paragraph size to match About Me */
+  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
+  line-height: 1.6; /* Improve readability with line height */
+  font-weight: 400;
+  margin-right: 5px;
+  color: #6d7070; /* Text color */
+  display: inline; /* Ensure paragraph is inline to avoid line breaks */
+}
+
+.read-more {
+  display: inline; /* Make sure it's inline with paragraph text */
+  text-decoration: none; /* Remove underline from link */
+  color: #6d7070; /* Text color */
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.blog-subheading {
+  margin-bottom: 5px; /* Reduced space between subheading and published date */
+}
+
+.published-date {
+  font-size: 5px; /* Font size for published date */
+  
+}
+
+.writing li {
+  list-style-type: none;
+}
+
+.writing ul {
+  padding-left: 5px;
+}
+
+.back-button {
+  color: #12161B;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  padding-right: 15px;
+  padding-bottom: 150px;
+  padding-top: 0px;
+  font-weight: 150;
 }
 
 
+.published-date-detail {
+  font-size: 12px; 
+  margin-top: 0px;
+  color: #6d7070; /* Text color */
+  padding-left: 0px;
+  padding-bottom: 30px;
+}
+
+.blog-detail h2 {
+  font-size: 52px; /* Title font size */
+  margin-bottom: 5px;
+  margin-right: 20%;
+  font-family: 'Playfair Display';
+  color: #16191e; /* Match sidebar link color */
+  font-weight: 850;
+}
+
+
+.markdown-content {
+  margin-right: 20%; /* Add right side margin */
+  line-height: 1.6; 
+  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
+  font-weight: 500;
+  margin-right: 20%;
+  color: #6d7070; 
+}
+
+.markdown-content a {
+  color: black; /* Set link color to black */
+  text-decoration: none; /* Remove underline */
+  text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  color: #2c3e50; /* Darker color for headings */
+}
+
+.markdown-content p {
+  margin-bottom: 15px; /* Space between paragraphs */
+}
+
+.markdown-content img {
+  max-width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+.home h2 {
+  margin-right: 20%; /* Add right side margin */
+  line-height: 1.6; 
+  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
+  font-weight: 500;
+  margin-right: 20%;
+  color: #6d7070; 
+  padding-left: 10px;
+}
