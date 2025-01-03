@@ -110,13 +110,15 @@ That said, I still believe people are generally kind, until circumstances challe
 
 ---
 
-### Life Lessons from the Road ###
+### Life Lessons from the Solo Trip ###
 
 - Overthinking kills the magic. Sometimes, you just need to hit the throttle and go.  
 - Fear isn’t the enemy; it’s the teacher. Facing it head-on, you realize how much you’re capable of.  
 - Being alone isn’t lonely—it’s empowering. You discover parts of yourself you didn’t know existed.  
+- Confidence about independence and discovering. For e.g. now if you see Pune to Goa is 460-500, since i already travelled 240km in one day ( that's also no stretch ), then what the big challenge going goa in 2 days or may be later able to go in one day.
 - Hope for the best , prepare for the worst. It's not possible to avoid mishap, what if bike broke down, who could help me etc. These are uncontrollable, but things which are in your control should be done as much as possible. Like have proper gears, bike checked up before trip, planned properly, go in morning planing only upto afternoon etc.
 - Still , Solo is bit risky but very enjoyable 
+
 
 ---
 
@@ -127,6 +129,10 @@ That said, I still believe people are generally kind, until circumstances challe
 3. Days of Travel: 2 Days.
 4. Bike Average: ~39KM
 5. Before Trip Expense( can exclude this): ~3000
+
+---
+
+### What can be improved ? 
 
 ---
 
