@@ -36,16 +36,16 @@ const Sidebar = ({ isBlogDetail, backto }) => {
         <li style={{ marginTop: '20px' }}>
           <div className="social-links" style={{ display: 'flex', marginTop: '10px' }}>
             <a href="https://github.com/manvirag" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <i className="fab fa-github" style={{ fontSize: '20px', color: '#000' }}></i>
+              <i className="fab fa-github" style={{  color: '#000' }}></i>
             </a>
             <a href="https://twitter.com/manvirag" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <i className="fab fa-twitter" style={{ fontSize: '20px', color: '#000' }}></i>
+              <i className="fab fa-twitter" style={{  color: '#000' }}></i>
             </a>
             <a href="https://linkedin.com/in/manvirag" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <i className="fab fa-linkedin" style={{ fontSize: '20px', color: '#000' }}></i>
+              <i className="fab fa-linkedin" style={{  color: '#000' }}></i>
             </a>
             <a href="https://medium.com/@manvirag" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <i className="fab fa-medium" style={{ fontSize: '19px', color: '#000' }}></i>
+              <i className="fab fa-medium" style={{  color: '#000' }}></i>
             </a>
           </div>
         </li>
