@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate } from 'react-router-dom';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'; // Import the left arrow icon
 
-const Sidebar = ({ isBlogDetail }) => {
+const Sidebar = ({ isBlogDetail, backto }) => {
   const navigate = useNavigate();
   return (
     <nav className="sidebar">
@@ -13,7 +13,7 @@ const Sidebar = ({ isBlogDetail }) => {
       { isBlogDetail  && 
        <li>
        
-         <button onClick={() => navigate('/writing')} className="back-button" >
+         <button onClick={() => navigate(`/${backto}`)} className="back-button" >
                 <FontAwesomeIcon icon={faArrowLeft} className="fa-2x" />
               </button>
               </li>

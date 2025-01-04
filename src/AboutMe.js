@@ -1,6 +1,7 @@
 // AboutMe.js
 import React from 'react';
 import './App.css'; // Ensure this import is present
+import { NavLink } from 'react-router-dom';
 
 const AboutMe = () => (
   <div className="about-me">
@@ -14,11 +15,11 @@ const AboutMe = () => (
     </p>
 
     <p className="spaced-text">
-    Apart from development, I also like solving coding problems and use <b>C++</b> there. Now a days , not spend much time on this. I mostly solve problems on <a href="https://gitlab.com/anubhavmt" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}> <b>Leetcode</b></a>. and <a href="https://gitlab.com/anubhavmt" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b> Codeforces</b></a>.
+    Apart from development, I also like solving coding problems and use <b>C++</b> there. Now a days , not spend much time on this. I mostly solved problems on <a href="https://gitlab.com/anubhavmt" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}> <b>Leetcode</b></a>. and <a href="https://gitlab.com/anubhavmt" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b> Codeforces</b></a>.
     </p>
 
     <p className="spaced-text">
-    In addition to my work, I've explored various positive interests, and I've developed the interests for <a href="https://www.goodreads.com/review/list/183650280?ref=nav_mybooks" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>reading books</b></a> ( not randomly, but as per my interest and learning ), bike riding and writing ( about profession and life mainly ) in 2024. These activities bringing me joy ( productive one :D) as of now, Let's see how far it goes. 
+    In addition to my work, I've explored various positive interests :), and I've developed the interests for <a href="https://www.goodreads.com/review/list/183650280?ref=nav_mybooks" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>reading books</b></a> ( not randomly, but as per my interest and learning )  <NavLink to="/lifewriting/2" className={({ isActive }) => (isActive ? "active-link" : "")} end> <a  target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>bike riding</b></a></NavLink> and writing ( about profession and life mainly ) in 2024. These activities bringing me joy ( productive one :D) as of now, Let's see how far it goes. 
     </p>
 
 
