@@ -8,7 +8,7 @@ const blogData = [
     },
     {
       id: 2,
-      title: "Exploring some portion of konkan coast.",
+      title: "Exploring portion of konkan coast.",
       subheading: "Riding Solo Along the Some Konkan Coast Portion: A Journey of Freedom, Fun, and a Few Fumbles",
       publishedDate: "2025-01-02",
       link: "/lifewriting/2"
