@@ -19,8 +19,10 @@ const AboutMe = () => (
     </p>
 
     <p className="spaced-text">
-    In addition to my work, I've explored various positive interests :), and I've developed the interests for <a href="https://www.goodreads.com/review/list/183650280?ref=nav_mybooks" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>reading books</b></a> ( not randomly, but as per my interest and learning )  <NavLink to="/lifewriting/2" className={({ isActive }) => (isActive ? "active-link" : "")} end> <a  target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>bike riding</b></a></NavLink> and writing ( about profession and life mainly ) in 2024. These activities bringing me joy ( productive one :D) as of now, Let's see how far it goes. 
+    In addition to my work, I've explored various positive interests :), and I've developed the interests for <a href="https://www.goodreads.com/review/list/183650280?ref=nav_mybooks" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>reading books</b></a> ( not randomly, but as per my interest and learning )  <NavLink to="/lifewriting/2" className={({ isActive }) => (isActive ? "active-link" : "")} end> <a  target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>bike riding</b></a></NavLink> and writing ( about profession and life mainly ) in 2024. I don't usually watch web series or <a href="https://letterboxd.com/manvirag/films/" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>movies</b></a> now a days unless they're highly recommended or considered must-see in a lifetime. These activities bringing me joy ( productive one :D) as of now, Let's see how far it goes. 
     </p>
+
+    
 
 
 
