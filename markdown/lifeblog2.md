@@ -136,9 +136,11 @@ There was a man sitting on the road, bleeding heavily, his cries echoing in the 
 
 **A Close Call in the Ghats**
 
-As I approached the roads between Khopoli and Khandala ( If you look at the map, the road is quite curvy and had also some traffic not as peaceful as the Tamhini ones :( , the terrain became more challenging. While navigating a particularly sharp curve, I confused between two paths. Instinctively, I hit the front brakes on roadside and road had slope, and my bike got imbalanced ,since bike was heavy wasn't able to control it and tipped over.
+As I approached the roads between Khopoli and Khandala ( If you look at the map, the road is quite curvy and had also some traffic not as peaceful as the Tamhini ones :( , the terrain became more challenging. While navigating a particularly sharp curve, I confused between two paths. Instinctively, I hit the front brakes on roadside and road had slope, .... TBU may will tell some day.
 
-Fortunately, some kind strangers rushed to help me lift the bike. Neither I nor my bike suffered any significant damage (except scratch on crash guard and brake, i checked later), thanks to the crash guard. It could have been much worse, and I was grateful for this small stroke of luck.
+<!-- and my bike got imbalanced ,since bike was heavy wasn't able to control it and tipped over.
+
+Fortunately, some kind strangers rushed to help me lift the bike. Neither I nor my bike suffered any significant damage (except scratch on crash guard and brake, i checked later), thanks to the crash guard. It could have been much worse, and I was grateful for this small stroke of luck. -->
 
 **A Trail of Abandoned Incidents**
 
