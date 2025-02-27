@@ -171,12 +171,13 @@ body {
 }
 
 .read-more {
-  display: inline; /* Make sure it's inline with paragraph text */
-  text-decoration: none; /* Remove underline from link */
+  display: inline-block; /* Ensure proper spacing */
+  text-decoration: none; /* Remove underline */
   color: #6d7070; /* Text color */
-  margin-left: 5px;
+  margin-left: 15px; /* Adjust percentage as needed */
   font-size: 12px;
 }
+
 
 .blog-subheading {
   margin-bottom: 5px; /* Reduced space between subheading and published date */
@@ -271,4 +272,64 @@ body {
   padding-left: 10px;
 }
 
+
+
+
+
+/* Tag styles */
+.blog-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.blog-tags .tag {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 8px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.blog-tags .tag:hover {
+  background-color: #12161B;
+  color: #fff;
+}
+
+/* Tags filter container */
+.tags-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tags-container button {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tags-container button.active {
+  background-color: #12161B;
+  color: white;
+  border-color: #12161B;
+}
+
+.tags-container button:hover {
+  background-color: #eaeaea;
+}
+
+
+.blog-title-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Keep the same text color */
+}
 

@@ -37,10 +37,11 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Manvirag />} />
             <Route path="/about" element={<AboutMe />} />
-            <Route path="/writing" element={<Blogs head={"tech writing"} blogData = {blogData}/>} />
-            <Route path="/lifewriting" element={<Blogs head={"writing"} blogData = {lifeblog}/>} />
+            <Route path="/writing" element={<Blogs head={"writing"} blogData = {blogData}/>} />
+            {/* <Route path="/writing" element={<Blogs head={"tech writing"} blogData = {blogData}/>} /> */}
+            {/* <Route path="/lifewriting" element={<Blogs head={"writing"} blogData = {lifeblog}/>} /> */}
             <Route path="/writing/:id" element={<BlogDetail blogData={blogData} markdownPath = {"blog"} />} />
-            <Route path="/lifewriting/:id" element={<BlogDetail blogData={lifeblog} markdownPath = {"lifeblog"} />} />
+            {/* <Route path="/lifewriting/:id" element={<BlogDetail blogData={lifeblog} markdownPath = {"lifeblog"} />} /> */}
           </Routes>
         </div>
       </div>

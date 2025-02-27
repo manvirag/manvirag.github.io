@@ -23,15 +23,19 @@ const Sidebar = ({ isBlogDetail, backto }) => {
             manvirag
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/writing" className={({ isActive }) => (isActive ? "active-link" : "")}>techwriting</NavLink>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <NavLink to="/lifewriting" className={({ isActive }) => (isActive ? "active-link" : "")}>writing</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to="/about" className={({ isActive }) => (isActive ? "active-link" : "")}>about </NavLink>
         </li>
+        <li>
+          <NavLink to="/writing" className={({ isActive }) => (isActive ? "active-link" : "")}>writing</NavLink>
+        </li>
+        
         {/* Social media links */}
         <li style={{ marginTop: '20px' }}>
           <div className="social-links" style={{ display: 'flex', marginTop: '10px' }}>

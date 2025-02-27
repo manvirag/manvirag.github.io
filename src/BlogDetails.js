@@ -1,6 +1,6 @@
 // src/BlogDetails.js
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw'; // Import rehype-raw for raw HTML parsing
 import './App.css';
@@ -47,13 +47,23 @@ const BlogDetail = ({ blogData, markdownPath }) => {
     <div className="blog-detail">
       <h2>{blog.title}</h2>
       <p className="published-date-detail">Published: {formatDate(blog.publishedDate)}</p>
+
+      {/* Display blog tags */}
+      <div className="blog-tags">
+        {blog.tags.map((tag) => (
+          <Link key={tag} className="tag">
+            {tag}
+          </Link>
+        ))}
+      </div>
+
       <ReactMarkdown
         className="markdown-content"
         children={markdownContent}
         rehypePlugins={[rehypeRaw]} // Enable raw HTML parsing
         components={{
           img: ({ ...props }) => (
-            <img {...props} style={{ width: '1000px', height: 'auto', margin: '1em 0' }} />
+            <img {...props} style={{ width: '100%', height: 'auto', margin: '1em 0' }} />
           ),
           video: ({ ...props }) => (
             <video
