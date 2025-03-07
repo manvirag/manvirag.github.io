@@ -7,13 +7,15 @@ const AboutMe = () => (
   <div className="about-me">
     <h2>about me</h2>
     <p className="spaced-text">
-       I'm Anubhav Gupta, a Software Engineer currently contributing to the platform team at <a href="https://www.mindtickle.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>Mindtickle</b></a>. I work as <b>Software Engineer 2</b> there. At my daily job , I work on understanding the product requirements related to the platfom domain including user, rule engine, workflows etc, figuring out the solutions and eventually release and maintain it, following the complete software development life cycle.
+       I'm Anubhav Gupta, a Software Engineer currently contributing to the core team at <a href="https://www.mindtickle.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b>Mindtickle</b></a>. I work as <b>Software Engineer 2</b> there. At my daily job , I work on understanding the product requirements related to the platfom domain including user, rule engine, workflows etc, figuring out the solutions and eventually release and maintain it, following the complete software development life cycle.
         {/* You can find my contributions there on <a href="https://gitlab.com/anubhavmt" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'underline' }}>GitLab</a>. */}
     </p>
     <p className="spaced-text">
-    I like backend software engineering mainly including system designing, scalability, distributed systems, and databases. And also interested in solving real world problems, which would help humanity to have more wider scope about the life and universe in some way. I mostly work in <b>Golang</b> for the development. 
+    I like backend software engineering mainly including system designing, scalability, distributed systems, and databases. And also interested in solving real world problems, which would help humanity to have more wider scope about the life and universe in some way. I mostly work in <b>Golang</b> ( coz I &hearts; Golang ) for the development and experiment.  
     </p>
-
+    <p className="spaced-text">
+    I worked on different technologies like: Golang, C++, Python, Java, JS/TS, GraphQL, SQL, NoSQL, Kafka, AWS (Lambda, Kinesis, SQS, SNS, S3, CloudWatch, MQ, ), Docker, Kubernetes, Snowflake, Airflow and many more,  as per requirements. I believe its just the tools and can be switch to other if require to solve our usecase. I always believe in basic principles behind any technologies and try to understand them is my first priority.
+    </p>
     <p className="spaced-text">
     Apart from development, I also like solving coding problems and use <b>C++</b> there. Now a days , not spend much time on this. I mostly solved problems on <a href="https://leetcode.com/manvirag" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}> <b>Leetcode</b></a>. and <a href="https://codeforces.com/profile/_manvirag" target="_blank" rel="noopener noreferrer" style={{ color: '#6d7070', textDecoration: 'underline' }}><b> Codeforces</b></a>.
     </p>
