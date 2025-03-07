@@ -14,7 +14,7 @@ Alex ( **Red Guys** ) dreams of being a software engineer. He imagines the fancy
 
 Sam ( **Green Guy** ) dreams of writing code, fixing bugs, and learning new technologies. He loves the process, even when it's hard.
 
-Who do you think , who will  be happy as the software engineer? It's Sam, because he loves the daily work. Alex gives up when he realizes he doesn't enjoy the grind.
+What do you think , who will  be happy as the software engineer? It's Sam, because he loves the daily work. Alex gives up when he realizes he doesn't enjoy the grind.
 
 
 ![alt_image](/markdown/blog5/image.png)
