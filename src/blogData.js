@@ -20,7 +20,7 @@ const blogData = [
     title: "How to make decisions in life.",
     publishedDate: "2024-07-22",
     link: "/writing/3",
-    tags: ["life", "2024"]
+    tags: ["life","mental model", "2024"]
   },
   {
     id: 2,
