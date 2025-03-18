@@ -1,6 +1,14 @@
 // src/blogData.js
 const blogData = [
   {
+    id: 6,
+    title: "What to do when you are on high emotion?",
+    subheading: "As per my understanding of 2025, way to deal with high emotional feelings mostly negative ones.",
+    publishedDate: "2025-03-18",
+    link: "/writing/6",
+    tags: ["life", "mental model", "2025"]
+  },
+  {
     id: 5,
     title: "Dream of Habits, Not Goals",
     publishedDate: "2025-03-07",
