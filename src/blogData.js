@@ -1,6 +1,14 @@
 // src/blogData.js
 const blogData = [
   {
+    id: 7,
+    title: "Should we listen to others experiences?",
+    subheading: "Learning from others experiences help to navigate life's challenges more effectively",
+    publishedDate: "2025-03-29",
+    link: "/writing/7",
+    tags: ["life", "mental model", "2025"]
+  },
+  {
     id: 6,
     title: "What to do when you are on high emotion?",
     subheading: "As per my understanding of 2025, way to deal with high emotional feelings mostly negative ones.",
