@@ -25,6 +25,15 @@ Investment Strategy:
   - 20% Stocks, very risky. Don't invest without research. Very fluctuating. ( >8 )
   - Diversify with EPF/PPF, Real Estate, Gold ( Optional )
   - For individual details: refer its specific book or internet.
+- Parameter to think before any things ( Revisit while doing )
+  - Cost -> starting, recurring, exit.
+  - Return
+  - Lock-in
+  - Cost to exit early
+  - Holding Periods and its cost. 
+  - Taxes. 
+
+
 
 Bank Account: 
 - Manage three accounts
