@@ -36,7 +36,7 @@ Cautions:
 - **Having said this, things get tough when you desire something and you might not get money in return of that** . Each individual can have different approach for this.
 
 
-Try now or never regret at all about past **at last**. Period
+Try now or never regret at all about past **at last**, those able to do also going **at last**. Period
 
     
 
