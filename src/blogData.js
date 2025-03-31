@@ -1,6 +1,5 @@
 // src/blogData.js
-const blogData = [
-  
+export const blogData = [
   {
     id: 7,
     title: "Should we listen to others experiences?",
@@ -23,6 +22,14 @@ const blogData = [
     publishedDate: "2025-03-07",
     link: "/writing/5",
     tags: ["life", "mental model", "2025"]
+  },
+  {
+    id: 9,
+    title: "Personal Finance Guide #2025",
+    subheading: "A practical guide to managing personal money , as per 2025 readings",
+    publishedDate: "2025-02-16",
+    link: "/writing/9",
+    tags: ["finance", "2025"]
   },
   {
     id: 8,
