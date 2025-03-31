@@ -36,7 +36,7 @@ Cautions:
 - **Having said this, things get tough when you desire something and you might not get money in return of that** . Each individual can have different approach for this.
 
 
-Try now or never regret at all about past **at last**, those able to do also going **at last**. Period
+Try now ( "its all about choices, no one is 100% correct irrespective of status or position , since there is fixed rule of life". So its your choice and try for it, even if you fail. ) or never regret at all about past **at last**, those able to do also going **at last**. Period
 
     
 
