@@ -2,7 +2,7 @@
 export const blogData = [
   {
     id: 10,
-    title: "Life of a Company in layman terms. [TBU]",
+    title: "Life of a company in layman terms. [TBU]",
     subheading: "How a company grows from startup to IPO.",
     publishedDate: "2024-03-31",
     link: "/writing/10",
