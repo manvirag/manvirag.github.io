@@ -1,6 +1,15 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 10,
+    title: "Life of a Company in layman terms. [TBU]",
+    subheading: "How a company grows from startup to IPO.",
+    publishedDate: "2024-03-31",
+    link: "/writing/10",
+    tags: ["startup"],
+    
+  },
+  {
     id: 7,
     title: "Should we listen to others experiences?",
     subheading: "Learning from others experiences help to navigate life's challenges more effectively",
