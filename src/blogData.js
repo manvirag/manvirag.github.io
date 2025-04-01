@@ -6,7 +6,7 @@ export const blogData = [
     subheading: "How a company grows from startup to IPO.",
     publishedDate: "2024-03-31",
     link: "/writing/10",
-    tags: ["startup"],
+    tags: ["startup", "2025"],
     
   },
   {
