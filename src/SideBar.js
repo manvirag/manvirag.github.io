@@ -70,7 +70,8 @@ const Sidebar = ({ isBlogDetail, backto }) => {
         {/* Theme Toggle */}
         <li style={{ 
           marginTop: '40px',
-          textAlign: 'center',
+          textAlign: 'right',
+          paddingRight: '15px',
           paddingBottom: '20px'
         }}>
           <button 

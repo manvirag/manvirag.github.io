@@ -235,6 +235,20 @@ body.dark-theme .social-links a:hover i {
   color: #6d7070; 
 }
 
+.about-me a {
+  color: #6d7070;
+  text-decoration: underline;
+}
+
+.about-me a:hover {
+  opacity: 0.8;
+}
+
+body.dark-theme .about-me a {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
 .blog-detail {
   margin-left: 2%;
 }
@@ -357,9 +371,17 @@ body.dark-theme .social-links a:hover i {
 }
 
 .markdown-content a {
-  color: black; /* Set link color to black */
-  text-decoration: none; /* Remove underline */
-  text-decoration: underline; /* Underline on hover for better visibility */
+  color: #6d7070;
+  text-decoration: underline;
+}
+
+.markdown-content a:hover {
+  opacity: 0.8;
+}
+
+body.dark-theme .markdown-content a {
+  color: #ffd700;
+  text-decoration: underline;
 }
 
 .markdown-content h1,
