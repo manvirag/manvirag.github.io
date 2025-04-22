@@ -13,8 +13,13 @@ const Home = () => {
           marginTop: '5%', // Add top margin
         }} 
       />
-      <h2>Be humble. Be fearless. Be yourself. </h2>
-      <h2> Remember, everyone regardless of their greatness, beauty, arrogance, judgement etc. will eventually face mortality.</h2>
+        
+      <h2>Be humble. Be fearless. Be yourself. 
+       Remember, everyone regardless of their greatness, beauty, arrogance, judgement etc. will eventually face mortality.</h2>
+      <h2></h2>
+       <h2>If you are going through hell, why would you stop in hell?.</h2>
+        
+      
     </div>
   );
 };

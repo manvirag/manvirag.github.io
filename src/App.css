@@ -4,7 +4,6 @@ body {
   margin: 0;
   margin-top: 4%;
   font-family: Arial, sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-theme {
@@ -393,9 +392,16 @@ body.dark-theme .social-links a:hover i {
   padding-left: 10px;
 }
 
+.home img {
+  max-width: 4rem;
+  margin-top: 5%;
+  filter: brightness(0);
+  transition: filter 0.3s ease;
+}
 
-
-
+body.dark-theme .home img {
+  filter: brightness(1) invert(1);
+}
 
 /* Tag styles */
 .blog-tags {
