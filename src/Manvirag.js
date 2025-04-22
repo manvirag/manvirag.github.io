@@ -16,9 +16,12 @@ const Home = () => {
         
       <h2>Be humble. Be fearless. Be yourself. 
        Remember, everyone regardless of their greatness, beauty, arrogance, judgement etc. will eventually face mortality.</h2>
-      <h2></h2>
-       <h2>If you are going through hell, why would you stop in hell?.</h2>
-        
+      <h2>If you are going through hell, why would you stop in hell?. Its all about mindset. </h2>
+      <h2>Believe in instinct, keep betting on yourself and move out of your comfort zone. if you don't believe in yourself, why would someone else believe in you?</h2>
+      <h2>Life’s unpredictable. Don’t take it too seriously, and try to keep a balanced outlook — not too optimistic, not pessimistic. Think only on controllable things.</h2>
+      
+      
+
       
     </div>
   );
