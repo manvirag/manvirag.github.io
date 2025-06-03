@@ -1,6 +1,14 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 11,
+    title: "The Sense of Urgency in Goals Execution",
+    subheading: "Setting a goal is not enough, you need to act on it. But urgently",
+    publishedDate: "2025-06-02",
+    link: "/writing/11",
+    tags: ["mental model", "2025"]
+  },
+  {
     id: 10,
     title: "Life of a company in layman terms.",
     subheading: "How a company grows from startup to IPO.",
