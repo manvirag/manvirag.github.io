@@ -1,6 +1,14 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 12,
+    title: "Burnout might not be related to too much work",
+    subheading: "Most of the time we don't realize that we are on way to burnout.",
+    publishedDate: "2025-06-04",
+    link: "/writing/12",
+    tags: ["mental model", "life", "2025"]
+  },
+  {
     id: 11,
     title: "The Sense of Urgency in Goals Execution",
     subheading: "Setting a goal is not enough, you need to act on it. But urgently",
