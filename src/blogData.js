@@ -1,6 +1,14 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 13,
+    title: "all about health",
+    subheading: "what is healthy food ?? healthy food has healthy body and healthy body has healthy mind",
+    publishedDate: "2025-06-29",
+    link: "/writing/13",
+    tags: ["health", "life", "2025"]
+  },
+  {
     id: 12,
     title: "Burnout might not be related to too much work",
     subheading: "Most of the time we don't realize that we are on way to burnout.",
