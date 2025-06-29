@@ -2,7 +2,7 @@
 export const blogData = [
   {
     id: 13,
-    title: "all about health",
+    title: "all about health fundamentals",
     subheading: "what is healthy food ?? healthy food has healthy body and healthy body has healthy mind",
     publishedDate: "2025-06-29",
     link: "/writing/13",
