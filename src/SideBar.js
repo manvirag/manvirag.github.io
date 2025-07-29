@@ -9,9 +9,9 @@ const Sidebar = ({ isBlogDetail, backto }) => {
   const navigate = useNavigate();
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    document.body.classList.add('dark-theme');
-  }, []);
+  // useEffect(() => {
+  //   document.body.classList.add('dark-theme');
+  // }, []);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
