@@ -4,7 +4,7 @@ export const blogData = [
     id: 14,
     title: "Event-driven system: NFRs",
     subheading: "Understanding the critical non-functional requirements in event-driven architectures beyond just scalability",
-    publishedDate: "2025-01-15",
+    publishedDate: "2025-08-23",
     link: "/writing/14",
     tags: ["tech", "2025"]
   },
