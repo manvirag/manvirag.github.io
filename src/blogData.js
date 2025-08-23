@@ -1,6 +1,14 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 14,
+    title: "Event-driven system: NFRs",
+    subheading: "Understanding the critical non-functional requirements in event-driven architectures beyond just scalability",
+    publishedDate: "2025-01-15",
+    link: "/writing/14",
+    tags: ["tech", "2025"]
+  },
+  {
     id: 13,
     title: "all about health fundamentals",
     subheading: "what is healthy food ?? healthy food has healthy body and healthy body has healthy mind",
