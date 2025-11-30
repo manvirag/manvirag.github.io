@@ -249,6 +249,27 @@ body.dark-theme .about-me a {
   text-decoration: underline;
 }
 
+.about-me hr {
+  border: none; /* Remove default border */
+  border-top: 1px dotted #d0d0d0; /* Add a light dotted gray line */
+  margin: 20px 0; /* Space above and below the line */
+  margin-right: 28%;
+  width: calc(100% - 28%);
+  max-width: 100%;
+}
+
+body.dark-theme .about-me hr {
+  border-top: 1px dotted #444;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .about-me hr {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
 .blog-detail {
   margin-left: 2%;
 }

@@ -1,0 +1,29 @@
+.last-update {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  font-size: 12px;
+  color: #6d7070;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background: transparent;
+}
+
+body.dark-theme .last-update {
+  color: #b0b0b0;
+}
+
+.last-update-text {
+  white-space: nowrap;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .last-update {
+    font-size: 10px;
+    top: 10px;
+    right: 10px;
+  }
+}
+

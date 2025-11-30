@@ -8,6 +8,7 @@ import Manvirag from './Manvirag'
 import BlogDetail from "./BlogDetails";
 import blogData from "./blogData";
 import lifeblog from "./lifeblog"
+import LastUpdate from './components/LastUpdate'; // Import the LastUpdate component
 
 // Main App Component
 const App = () => {
@@ -29,6 +30,9 @@ const App = () => {
   return (
     // <Router>
       <div className="app-container">
+        {/* Last Update Timestamp - Top Right */}
+        <LastUpdate />
+        
         {/* Left Navigation Section */}
         <Sidebar isBlogDetail={isBlogDetail} backto={backTo}/> {/* Use the Sidebar component here */}
 
