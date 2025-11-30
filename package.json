@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run update-timestamp && npm run build && gh-pages -d build",
     "update-timestamp": "node scripts/update-timestamp.js",
     "prebuild": "npm run update-timestamp",
     "build": "react-scripts build",
