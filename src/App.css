@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  margin-top: 4%;
+  margin-top: 2%;
   font-family: Arial, sans-serif;
 }
 
@@ -124,7 +124,7 @@ body.dark-theme .markdown-content h6 {
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
-  margin-top: 12%;
+  margin-top: 8%;
 }
 
 .sidebar ul {
@@ -220,7 +220,7 @@ body.dark-theme .social-links a:hover i {
 .about-me h2 {
   color: #12161B; /* Match sidebar link color */
   font-family: 'Playfair Display';
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom: 35px;
   font-weight: 550;
   font-size: 56px;
@@ -272,6 +272,7 @@ body.dark-theme .about-me hr {
 
 .blog-detail {
   margin-left: 2%;
+  margin-top: 1%;
 }
 .spaced-text {
   word-spacing: 2px; /* Adjust this value to increase or decrease space */
@@ -280,7 +281,7 @@ body.dark-theme .about-me hr {
 .writing h2 {
   color: #12161B; /* Match sidebar link color */
   font-family: 'Playfair Display';
-  margin-top: 4%;
+  margin-top: 2%;
   margin-right: 5%;
   margin-bottom: 45px;
   font-weight: 550;
@@ -438,13 +439,192 @@ body.dark-theme .markdown-content a {
 
 .home img {
   max-width: 4rem;
-  margin-top: 5%;
+  margin-top: 2%;
   filter: brightness(0);
   transition: filter 0.3s ease;
 }
 
 body.dark-theme .home img {
   filter: brightness(1) invert(1);
+}
+
+/* Motivation Section */
+.motivation-section {
+  margin-top: 20px;
+  margin-right: 0;
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.motivation-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 550;
+  color: #12161B;
+  margin-bottom: 45px;
+  margin-right: 0;
+}
+
+body.dark-theme .motivation-title {
+  color: #ffffff;
+}
+
+.motivation-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 0;
+  align-items: start;
+  width: 100%;
+  max-width: 85%;
+}
+
+.motivation-videos-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+
+.motivation-quotes-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+
+.motivation-video-card {
+  background: transparent;
+  border-left: 3px solid #d0d0d0;
+  padding: 15px;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.motivation-video-card:hover {
+  border-left-color: #12161B;
+  transform: translateX(5px);
+}
+
+body.dark-theme .motivation-video-card {
+  border-left-color: #444;
+}
+
+body.dark-theme .motivation-video-card:hover {
+  border-left-color: #ffd700;
+}
+
+.motivation-video-wrapper {
+  padding: 0;
+  width: 100%;
+}
+
+.motivation-card {
+  background: transparent;
+  border-left: 3px solid #d0d0d0;
+  padding: 20px 25px;
+  padding-left: 25px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.motivation-card:hover {
+  border-left-color: #12161B;
+  transform: translateX(5px);
+}
+
+body.dark-theme .motivation-card {
+  border-left-color: #444;
+}
+
+body.dark-theme .motivation-card:hover {
+  border-left-color: #ffd700;
+}
+
+.motivation-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #6d7070;
+  font-weight: 400;
+  margin: 0;
+  font-style: italic;
+}
+
+body.dark-theme .motivation-text {
+  color: #b0b0b0;
+}
+
+.motivation-video-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.motivation-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  background: #000;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.motivation-video-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #6d7070;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+  font-style: italic;
+  text-align: center;
+}
+
+body.dark-theme .motivation-video-title {
+  color: #b0b0b0;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .motivation-section {
+    margin-right: 0;
+    padding-left: 0;
+  }
+  
+  .motivation-title {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+  
+  .motivation-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .motivation-videos-column,
+  .motivation-quotes-column {
+    gap: 20px;
+  }
+  
+  .motivation-card {
+    padding: 15px 20px;
+    padding-left: 20px;
+  }
+  
+  .motivation-video-card {
+    padding: 15px;
+    padding-left: 20px;
+  }
+  
+  .motivation-text {
+    font-size: 14px;
+  }
 }
 
 /* Tag styles */

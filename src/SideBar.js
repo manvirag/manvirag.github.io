@@ -7,11 +7,11 @@ import { faArrowLeft, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = ({ isBlogDetail, backto }) => {
   const navigate = useNavigate();
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
-  // useEffect(() => {
-  //   document.body.classList.add('dark-theme');
-  // }, []);
+  useEffect(() => {
+    document.body.classList.add('dark-theme');
+  }, []);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
