@@ -298,50 +298,116 @@ body.dark-theme .about-me hr {
 
 .blog-item {
   margin-bottom: 20px; /* Space between blog items */
+  padding: 0;
+}
+
+/* Row 1: Title */
+.blog-row-1 {
+  margin-bottom: 8px;
 }
 
 .blog-title {
   font-size: 22px; /* Title font size */
-  margin-bottom: 5px;
+  margin: 0;
   font-family: 'Playfair Display';
   color: #16191e; /* Match sidebar link color */
   font-weight: 450;
+  line-height: 1.3;
+  transition: color 0.3s ease;
 }
 
-.blog-item h4 {
-  margin-top: 0px;
-  font-size: 15px; /* Subheading font size */
-  color: #6d7070;  /* Lighter color for subheading */
-  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
-  font-weight: lighter;
+.blog-title-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.blog-item p {
+.blog-title-link:hover {
+  color: #6d7070;
+}
+
+body.dark-theme .blog-title-link {
+  color: #ffffff;
+}
+
+body.dark-theme .blog-title-link:hover {
+  color: #ffd700;
+}
+
+.blog-item p:not(.published-date) {
   font-size: 12px; /* Adjust paragraph size to match About Me */
   font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
   line-height: 1.6; /* Improve readability with line height */
   font-weight: 400;
-  margin-right: 5px;
+  margin: 0;
   color: #6d7070; /* Text color */
-  display: inline; /* Ensure paragraph is inline to avoid line breaks */
+}
+
+.published-date {
+  font-size: 12px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  margin: 0;
+  color: #6d7070;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .read-more {
   display: inline-block; /* Ensure proper spacing */
   text-decoration: none; /* Remove underline */
   color: #6d7070; /* Text color */
-  margin-left: 15px; /* Adjust percentage as needed */
+  margin: 0;
   font-size: 12px;
 }
 
+/* Row 2: Description */
+.blog-row-2 {
+  margin-bottom: 8px;
+}
 
-.blog-subheading {
-  margin-bottom: 5px; /* Reduced space between subheading and published date */
+.blog-item h4 {
+  margin: 0;
+  font-size: 15px; /* Subheading font size */
+  color: #6d7070;  /* Lighter color for subheading */
+  font-family: 'Open Sans', sans-serif; /* Ensure paragraphs use Open Sans */
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+/* Row 3: Date and Tags */
+.blog-row-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .published-date {
-  font-size: 5px; /* Font size for published date */
-  
+  font-size: 12px;
+  white-space: nowrap;
+  color: #6d7070;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.published-date:hover {
+  color: #12161B;
+}
+
+body.dark-theme .published-date {
+  color: #b0b0b0;
+}
+
+body.dark-theme .published-date:hover {
+  color: #ffd700;
+}
+
+.blog-subheading {
+  margin: 0;
 }
 
 .writing li {
@@ -625,14 +691,50 @@ body.dark-theme .motivation-video-title {
   .motivation-text {
     font-size: 14px;
   }
+  
+  /* Blog listing mobile styles */
+  .blog-row-1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .blog-meta {
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .blog-row-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .blog-title {
+    min-width: auto;
+  }
+  
+  .blog-item h4 {
+    min-width: auto;
+  }
 }
 
 /* Tag styles */
 .blog-tags {
-  margin-top: 10px;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Reset tags to left for blog detail page */
+.blog-detail .blog-tags {
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .blog-tags .tag {
@@ -679,8 +781,4 @@ body.dark-theme .motivation-video-title {
 }
 
 
-.blog-title-link {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Keep the same text color */
-}
 

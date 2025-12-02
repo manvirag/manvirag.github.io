@@ -38,27 +38,35 @@ const BlogList = ({ head }) => {
       <ul>
         {filteredBlogs.map((blog, index) => (
           <li key={blog.id} className="blog-item">
-            <h3 className="blog-title">
-              <Link to={blog.link} className="blog-title-link">
-                  {blog.title.replace(/\.$/, '')}
-              </Link>
-            </h3>
-
-            <h4 className="blog-subheading">{blog.subheading}</h4>
-            <p className="published-date">{formatDate(blog.publishedDate)}</p>
-            <Link to={blog.link} className="read-more">Read &rarr;</Link>
-            <div className="blog-tags">
-              {blog.tags.map(tag => (
-                <span 
-                  key={tag} 
-                  className="tag" 
-                  onClick={() => setSelectedTag(tag)}
-                >
-                  {tag}
-                </span>
-              ))}
+            {/* Row 1: Title */}
+            <div className="blog-row-1">
+              <h3 className="blog-title">
+                <Link to={blog.link} className="blog-title-link">
+                    {blog.title.replace(/\.$/, '')}
+                </Link>
+              </h3>
             </div>
-            
+
+            {/* Row 2: Description */}
+            <div className="blog-row-2">
+              <h4 className="blog-subheading">{blog.subheading}</h4>
+            </div>
+
+            {/* Row 3: Date and Tags */}
+            <div className="blog-row-3">
+              <p className="published-date">{formatDate(blog.publishedDate)}</p>
+              <div className="blog-tags">
+                {blog.tags.map(tag => (
+                  <span 
+                    key={tag} 
+                    className="tag" 
+                    onClick={() => setSelectedTag(tag)}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
             
             {index < filteredBlogs.length - 1 && <hr/>}
           </li>
