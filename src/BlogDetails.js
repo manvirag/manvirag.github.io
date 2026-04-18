@@ -1,6 +1,7 @@
 // src/BlogDetails.js
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import remarkGfm from 'remark-gfm';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw'; // Import rehype-raw for raw HTML parsing
 import './App.css';
@@ -60,7 +61,8 @@ const BlogDetail = ({ blogData, markdownPath }) => {
       <ReactMarkdown
         className="markdown-content"
         children={markdownContent}
-        rehypePlugins={[rehypeRaw]} // Enable raw HTML parsing
+        rehypePlugins={[rehypeRaw]}
+        remarkPlugins={[remarkGfm]}   // 👈 ADD THIS
         components={{
           img: ({ ...props }) => (
             <img {...props} style={{ width: '100%', height: 'auto', margin: '1em 0' }} />
@@ -77,7 +79,6 @@ const BlogDetail = ({ blogData, markdownPath }) => {
               }}
             >
               <source src={props.src} type="video/mp4" />
-              Your browser does not support the video tag.
             </video>
           ),
         }}
