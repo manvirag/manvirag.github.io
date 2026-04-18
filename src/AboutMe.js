@@ -41,6 +41,7 @@ const AboutMe = () => (
 <b>[2025]</b>
 <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
   
+  {/* LEFT: text */}
   <ul style={{ flex: 1 }}>
     <li>By practice, became naturally curious about many things life, humanity, health, mathematics, physics, engineering, startups, research, and more.</li>
 
@@ -51,14 +52,24 @@ const AboutMe = () => (
     <li>Stopped using Instagram (will write about it separately).</li>
 
     <li>Trying to normalize failure and risk, but don't give up. with <strong>doesn't matter, just do</strong> mindset.</li>
-    
+
+    <li>Interestingly, I’ve gotten into the habit of marking places on Google Maps, watching vlogs about them, and dreaming of visiting them someday :/</li>
   </ul>
 
-  <img
-    src="/make_mistake.png"
-    alt="Make mistake"
-    style={{ width: "220px", height: "auto" }}
-  />
+  {/* RIGHT: images stacked (2x1) */}
+  <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+    <img
+      src="/make_mistake.png"
+      alt="Make mistake"
+      style={{ width: "220px", height: "auto" }}
+    />
+
+    <img
+      src="/mark.png"
+      alt="dreaming"
+      style={{ width: "220px", height: "auto" }}
+    />
+  </div>
 
 </div>    
     </p>
