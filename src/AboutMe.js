@@ -42,7 +42,7 @@ const AboutMe = () => (
 <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
   
   <ul style={{ flex: 1 }}>
-    <li>By practice, became naturally curious about many things—life, humanity, health, mathematics, physics, engineering, startups, research, and more.</li>
+    <li>By practice, became naturally curious about many things life, humanity, health, mathematics, physics, engineering, startups, research, and more.</li>
 
     <li>Started becoming more optimistic about life, things, and innovation instead of pessimistic.</li>
 
