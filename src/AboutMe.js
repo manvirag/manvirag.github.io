@@ -53,7 +53,14 @@ const AboutMe = () => (
 
     <li>Trying to normalize failure and risk, but don't give up. with <strong>doesn't matter, just do</strong> mindset.</li>
 
-    <li>Interestingly, I’ve gotten into the habit of marking places on Google Maps, watching vlogs about them, and dreaming of visiting them someday :/</li>
+    {/* <li>Interestingly, I’ve gotten into the habit of marking places on Google Maps, watching vlogs about them, and dreaming of visiting them someday :/ . Also i started like to do cooking tried some of the things , hoping continue to this , may be some day i became engineered cheif :(</li> */}
+    <li>
+A few things I’ve been getting into lately:
+  <ul>
+    <li>Marking places on Google Maps, watching vlogs about them, and dreaming of visiting them someday.</li>
+    <li>Explored cooking, I’ve tried a few dishes and really loved that time, hope to continue improving. Who knows, maybe one day I’ll become an “engineered” chef! :)</li>
+  </ul>
+</li>
   </ul>
 
   {/* RIGHT: images stacked (2x1) */}
