@@ -1270,7 +1270,7 @@ As of 2026:
 
 ---
 
-### Why is it Different for Stocks?
+### Why is it Different for Stocks? [ Later on this, remember not same case as MF]
 
 This is where many beginners get confused.
 
