@@ -2625,8 +2625,28 @@ That said, risk is not to be avoided, it's to be understood and managed. Everyon
 
 **Standard deviation**: Measures spread of returns around the average. A fund with 10% average return and standard deviation of 2% will return between 8%–12% about 68% of the time. Lower standard deviation = more predictable returns.
 
-**Alpha**: Excess return over the benchmark. A positive alpha means the fund manager has added value. **You want high alpha in active funds; zero alpha is expected and fine in index funds.**
+**Alpha**: Measures **how much extra return (or underperformance) a fund has generated compared to its benchmark**. It helps answer one simple question:
 
+> **"Did the fund manager add value beyond simply tracking the benchmark?"**
+
+Example:
+
+| Benchmark Return | Fund Return | Alpha | Meaning |
+|-----------------:|------------:|-------:|---------|
+| 15% | 18% | +3% | The fund outperformed the benchmark by 3%. |
+| 15% | 15% | 0% | The fund matched the benchmark. |
+| 15% | 12% | -3% | The fund underperformed the benchmark by 3%. |
+
+**Interpretation:**
+
+- **Positive Alpha (+)** → The fund manager added value by beating the benchmark.
+- **Zero Alpha (0)** → The fund performed in line with the benchmark.
+- **Negative Alpha (-)** → The fund underperformed the benchmark.
+
+**Beginner Takeaway:**
+
+- For **Active Mutual Funds**, you generally want a **consistently positive Alpha**, because you're paying a fund manager to outperform the benchmark.
+- For **Index Funds**, an Alpha close to **0** is expected and perfectly fine, since the fund's goal is to **replicate the benchmark**, not beat it.
 ---
 
 **Beta**: Volatility relative to the benchmark. Beta of 1 = exactly tracks the index. Beta of 0.65 = moves 0.65% for every 1% the benchmark moves (less volatile but also less upside). Beta > 1 = more volatile than the index. You generally want low beta for stability.
