@@ -663,7 +663,12 @@ Key equity categories:
 - **Flexi-cap fund**: Across market caps, but allocation left to fund manager discretion. Most flexi-cap funds have a large-cap bias.
 - **Focused fund**: Maximum 30 stocks, any market cap. High conviction, high risk.
 - **ELSS (Equity Linked Savings Scheme)**: Tax-saving fund under Section 80C. 3-year lock-in. All market caps.
-- **Dividend Yield / Value / Contra**: Style-based funds. No special edge highlighted by author.
+- **Dividend Yield / Value / Contra**: These are **investment style-based equity funds**. Unlike Large Cap or Mid Cap funds, they are **not defined by company size**, but by **how the fund manager selects stocks**.
+  - **Dividend Yield Fund** → Invests in companies that regularly pay relatively high dividends (often mature, profitable businesses).
+  - **Value Fund** → Invests in companies that the fund manager believes are undervalued by the market and may become more valuable over time.
+  - **Contra Fund** → Invests against prevailing market sentiment by buying companies or sectors that are currently unpopular but are expected to recover in the future.
+  
+  These funds rely heavily on the fund manager's investment philosophy and stock-picking skills. They are generally **not recommended as a beginner's first equity fund**.
 - **Sectoral / Thematic**: Concentrated in one sector (pharma, banking, tech). Avoid unless you understand the sector deeply.
 
 #### Sixteen Debt Fund Categories (SEBI)
