@@ -3096,6 +3096,199 @@ Bad comparison:
 
 Different categories naturally have different P/E levels.
 
+
+
+### Understanding P/B Ratio (Price to Book Ratio)
+
+If you already understand **P/E**, then **P/B is very similar**.
+
+The only difference is **what we compare the share price against.**
+
+- **P/E** compares **Share Price vs Earnings (Profit)**.
+- **P/B** compares **Share Price vs Book Value (Net Assets)**.
+
+---
+
+#### P/E vs P/B
+
+| Ratio | Formula | What it compares |
+|--------|---------|------------------|
+| **P/E** | Share Price ÷ EPS | Price vs Profit |
+| **P/B** | Share Price ÷ Book Value Per Share | Price vs Net Assets |
+
+The **Share Price** remains the same in both ratios.
+
+Only the denominator changes:
+
+- P/E uses **EPS (Earnings Per Share)**.
+- P/B uses **Book Value Per Share**.
+
+---
+
+#### What is Book Value?
+
+Book Value represents the **net assets** that belong to the shareholders.
+
+Formula:
+
+```text
+Book Value = Assets − Liabilities
+```
+
+Where:
+
+- **Assets** = Everything the company owns.
+  - Cash
+  - Buildings
+  - Machinery
+  - Loans given (for banks)
+  - Investments
+
+- **Liabilities** = Everything the company owes.
+  - Customer deposits (banks)
+  - Bank loans
+  - Taxes payable
+  - Other borrowings
+
+---
+
+#### Example
+
+Suppose HDFC Bank reports:
+
+#### Assets
+
+```text
+Cash                    ₹100 Cr
+Loans                   ₹700 Cr
+Government Bonds        ₹150 Cr
+Buildings               ₹50 Cr
+
+Total Assets = ₹1000 Cr
+```
+
+#### Liabilities
+
+```text
+Customer Deposits       ₹700 Cr
+Borrowings              ₹100 Cr
+
+Total Liabilities = ₹800 Cr
+```
+
+Therefore,
+
+```text
+Book Value
+
+= Assets − Liabilities
+
+= ₹1000 Cr − ₹800 Cr
+
+= ₹200 Cr
+```
+
+Suppose HDFC has **20 crore shares**.
+
+```text
+Book Value Per Share
+
+= ₹200 Cr / 20 Cr
+
+= ₹10
+```
+
+If today's market price is **₹100**,
+
+```text
+P/B
+
+= ₹100 / ₹10
+
+= 10
+```
+
+This means:
+
+> Investors are willing to pay **₹10 for every ₹1 of the company's net assets.**
+
+---
+
+#### Assets vs Profit
+
+This is the key difference from P/E.
+
+#### Assets
+
+Assets are **what the company owns today**.
+
+Example:
+
+- Cash
+- Buildings
+- Loans
+- Investments
+
+These remain on the company's balance sheet.
+
+---
+
+#### Profit
+
+Profit is **what the company earns during a period (usually one year) by using those assets.**
+
+For example:
+
+```text
+HDFC owns:
+
+Assets = ₹1000 Cr
+
+↓
+
+Uses those assets to run the business
+
+↓
+
+Profit this year = ₹40 Cr
+```
+
+Notice:
+
+- Assets are **resources**.
+- Profit is **the result of using those resources**.
+
+A company can:
+
+- Have large assets but low profit.
+- Have smaller assets but high profit.
+
+This is why investors look at **both P/E and P/B**.
+
+---
+
+#### When is P/B useful?
+
+P/B is especially useful for businesses where **assets are a major part of the business**, such as:
+
+- Banks
+- NBFCs
+- Insurance companies
+- Manufacturing companies
+
+For technology companies (Microsoft, Google, etc.), P/B is often less useful because much of their value comes from software, intellectual property, and brand, which may not be fully reflected in book value.
+
+---
+
+#### Beginner Takeaway
+
+- **P/E** tells you how much the market is paying for the company's **earnings (profit)**.
+- **P/B** tells you how much the market is paying for the company's **net assets (book value)**.
+
+Like P/E, **P/B is a valuation metric, not a buy/sell signal.**
+
+A high or low P/B does **not** automatically mean a mutual fund is good or bad. It simply helps you understand how the market values the companies held inside the mutual fund.
+
 The ideal combination in shortlisted funds (compared to peers, not absolute): **Low standard deviation + High alpha + Low beta + High Sharpe + High Sortino**.
 
 #### The Risk-o-Meter
