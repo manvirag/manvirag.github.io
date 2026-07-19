@@ -2627,7 +2627,35 @@ That said, risk is not to be avoided, it's to be understood and managed. Everyon
 
 **Alpha**: Excess return over the benchmark. A positive alpha means the fund manager has added value. **You want high alpha in active funds; zero alpha is expected and fine in index funds.**
 
+---
+
 **Beta**: Volatility relative to the benchmark. Beta of 1 = exactly tracks the index. Beta of 0.65 = moves 0.65% for every 1% the benchmark moves (less volatile but also less upside). Beta > 1 = more volatile than the index. You generally want low beta for stability.
+
+Think of the benchmark as the "reference."
+
+Example:
+
+| If the Benchmark Moves | Beta = 0.5 | Beta = 1 | Beta = 1.5 |
+|-------------------------|-----------:|---------:|-----------:|
+| +10% | +5% | +10% | +15% |
+| -10% | -5% | -10% | -15% |
+
+Interpretation:
+
+- **Beta = 1** → The fund moves almost exactly like the benchmark. (Expected for an **Index Fund**.)
+- **Beta < 1** → The fund moves less than the benchmark. It usually falls less during market crashes but may also rise less during bull markets.
+- **Beta > 1** → The fund moves more than the benchmark. Higher potential upside during rallies, but larger losses during market declines.
+
+**Remember:** Beta only tells you **how much the fund moves**, **not whether those movements are good or bad**. Two funds can have the same Beta but very different long-term returns.
+
+**Beginner Takeaway:**  
+- If you're buying an **Index Fund**, a Beta close to **1** is expected because its goal is to track the index.
+- For **Active Funds**, Beta tells you how aggressively or conservatively the fund behaves compared to its benchmark. Lower Beta generally means a smoother ride, while higher Beta means bigger swings.
+- Beta helps you understand **how emotionally and financially volatile your investment may feel**. Two funds might deliver similar long-term returns, but one may experience much larger ups and downs along the way. Knowing the Beta helps you choose a fund whose volatility matches your risk tolerance.
+
+**Example:** If you're investing for retirement and don't want to see large swings in your portfolio, you may prefer a lower Beta fund. If you're comfortable with bigger ups and downs in exchange for potentially higher returns, you may be comfortable with a higher Beta fund.
+
+---
 
 **Sharpe ratio**: Return per unit of total risk. Higher = better. Measures how much excess return you're getting for each unit of standard deviation.
 
