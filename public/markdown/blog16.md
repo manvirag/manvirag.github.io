@@ -2799,7 +2799,165 @@ Sharpe Ratio uses Standard Deviation to answer:
 > **"Did the fund generate enough return to justify the amount of volatility it experienced?"**
 
 
-**Sortino ratio**: Like Sharpe, but only measures downside risk. A high Sortino means the fund's losses in bad times are contained, you're getting upside without proportional downside. **This is especially important**, you want a fund that falls less during crashes.
+#### How is Sortino Ratio calculated? (Step-by-Step Example)
+
+Assume the **target return (or risk-free return) is 0%**.
+
+The fund generated the following monthly returns:
+
+| Month | Return |
+|-------|--------:|
+| Jan | +10% |
+| Feb | +20% |
+| Mar | -10% |
+| Apr | +5% |
+| May | -5% |
+
+### Step 1: Calculate the Average Return
+
+```text
+Average Return
+
+= (10 + 20 - 10 + 5 - 5) ÷ 5
+
+= 20 ÷ 5
+
+= 4%
+```
+
+---
+
+#### Step 2: Calculate Standard Deviation (Used in Sharpe Ratio)
+
+First, find how far each month's return is from the average return (4%).
+
+| Return | Deviation from Average |
+|--------:|-----------------------:|
+| 10% | +6 |
+| 20% | +16 |
+| -10% | -14 |
+| 5% | +1 |
+| -5% | -9 |
+
+Square each deviation:
+
+| Deviation | Square |
+|-----------:|-------:|
+| 6 | 36 |
+| 16 | 256 |
+| -14 | 196 |
+| 1 | 1 |
+| -9 | 81 |
+
+```text
+Average of Squares
+
+= (36 + 256 + 196 + 1 + 81) ÷ 5
+
+= 114
+```
+
+```text
+Standard Deviation
+
+= √114
+
+≈ 10.68%
+```
+
+**Sharpe Ratio considers all returns (both gains and losses).**
+
+---
+
+#### Step 3: Calculate Downside Deviation (Used in Sortino Ratio)
+
+Now only consider returns **below the target return (0%)**.
+
+| Return | Below Target? | Difference from Target |
+|--------:|---------------|-----------------------:|
+| 10% | No | 0 |
+| 20% | No | 0 |
+| -10% | Yes | -10 |
+| 5% | No | 0 |
+| -5% | Yes | -5 |
+
+Square only the downside differences:
+
+| Difference | Square |
+|------------:|-------:|
+| 0 | 0 |
+| 0 | 0 |
+| -10 | 100 |
+| 0 | 0 |
+| -5 | 25 |
+
+```text
+Average of Squares
+
+= (0 + 0 + 100 + 0 + 25) ÷ 5
+
+= 25
+```
+
+```text
+Downside Deviation
+
+= √25
+
+= 5%
+```
+
+Notice that **Downside Deviation (5%)** is much smaller than **Standard Deviation (10.68%)** because **positive returns are ignored**.
+
+---
+
+#### Step 4: Calculate Sharpe & Sortino Ratios
+
+Assume:
+
+```text
+Average Return = 4%
+Risk-Free Return = 0%
+```
+
+#### Sharpe Ratio
+
+```text
+Sharpe
+
+= (4 - 0) ÷ 10.68
+
+≈ 0.37
+```
+
+#### Sortino Ratio
+
+```text
+Sortino
+
+= (4 - 0) ÷ 5
+
+= 0.80
+```
+
+---
+
+#### Final Comparison
+
+| Sharpe Ratio | Sortino Ratio |
+|---------------|---------------|
+| Uses **Standard Deviation** (all volatility: gains + losses). | Uses **Downside Deviation** (only downside volatility). |
+| Penalizes both positive and negative fluctuations. | Penalizes only negative fluctuations. |
+| Best for measuring overall risk-adjusted returns. | Best for measuring downside risk-adjusted returns. |
+
+#### Beginner Takeaway
+
+Think of it this way:
+
+- **Sharpe Ratio:** "How much return did I earn for all the risk (both good and bad volatility) I took?"
+- **Sortino Ratio:** "How much return did I earn for only the downside (bad) risk I took?"
+
+That's why **Sortino is often preferred by long-term investors**, since investors usually don't mind **positive surprises**, but they do care about **large losses**.
 
 ### Understanding P/E Ratio (For Beginners)
 
