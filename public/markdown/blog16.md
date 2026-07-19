@@ -666,24 +666,396 @@ Key equity categories:
 - **Dividend Yield / Value / Contra**: Style-based funds. No special edge highlighted by author.
 - **Sectoral / Thematic**: Concentrated in one sector (pharma, banking, tech). Avoid unless you understand the sector deeply.
 
-**Sixteen Debt Categories**
+#### Sixteen Debt Fund Categories (SEBI)
 
-Debt funds invest in government bonds, corporate bonds, and deposits. The key rule: **use debt for safety and liquidity, not for yield maximization.**
+Before that lets deep dive into debt funds: 
 
-Key categories by investment horizon:
-- **Liquid funds**: Bonds maturing within 91 days. Park money needed in 0–3 months. No exit load if held >7 days.
-- **Ultra-short duration**: 3–6 month investment horizon.
-- **Low duration**: 6 months–1 year horizon.
-- **Money market**: 1-year instruments (T-bills, CPs). For 0–2 year parking.
-- **Short duration**: 1–3 years.
-- **Banking & PSU debt fund**: Only bonds from banks and public sector companies. Very safe, recommended by author for medium-term.
-- **Corporate bond fund**: Minimum 80% in highest-rated (AA+) corporate bonds.
-- **Credit risk fund**: Invests in lower-rated bonds for higher yield. **Avoid unless you understand credit risk deeply.** The risk here can exceed equity risk.
-- **Gilt fund**: Only government bonds. Interest rate risk is high for long-duration gilts.
-- **Dynamic bond fund**: Fund manager decides duration based on interest rate outlook. For experienced investors only.
-- **Fixed Maturity Plans (FMPs)**: Close-ended debt funds with defined maturity. Good when done right.
-- **Target Maturity Funds (TMFs)**: Index-based, bonds mature on specific date shown in fund name.
 
+#### What is a Debt Mutual Fund?
+
+A **debt mutual fund** is a mutual fund that **lends money instead of buying company ownership**.
+
+- **Equity mutual fund** → Uses your money to **buy shares (ownership)** of companies.
+- **Debt mutual fund** → Uses your money to **lend money** to governments, banks, and companies by buying debt instruments such as **Government Securities (G-Secs), Treasury Bills (T-Bills), Corporate Bonds, Commercial Papers (CPs), Certificates of Deposit (CDs), etc.**
+
+Think of it like this:
+
+```text
+You
+   │
+   ▼
+Debt Mutual Fund
+   │
+   ├── Lends to Government
+   ├── Lends to Banks
+   └── Lends to Companies
+```
+
+In return, these borrowers pay **interest**, just like they would on a loan. That interest becomes the primary source of returns for the debt fund.
+
+---
+
+#### How is it different from a Fixed Deposit (FD)?
+
+With an **FD**, you lend money to **one bank**.
+
+```text
+You
+   │
+₹1,00,000
+   │
+   ▼
+SBI Bank (FD)
+```
+
+With a **debt mutual fund**, your money is spread across **many borrowers**.
+
+```text
+You
+   │
+₹1,00,000
+   │
+   ▼
+Debt Mutual Fund
+   │
+   ├── Government Bonds
+   ├── SBI Bond
+   ├── Reliance Bond
+   ├── Treasury Bills
+   └── Certificates of Deposit
+```
+
+This diversification reduces the risk of depending on a single borrower.
+
+---
+
+#### Do I have to wait until the bonds mature?
+
+**No.** This is one of the biggest misconceptions about debt mutual funds.
+
+Suppose a debt mutual fund owns a **10-year Government Bond**.
+
+That **does not** mean you have to stay invested for 10 years.
+
+Example:
+
+```text
+2026
+
+You invest ₹1,00,000
+        │
+        ▼
+Debt Mutual Fund
+        │
+        ▼
+Owns a 10-year Government Bond
+```
+
+Now suppose after **6 months** you need your money.
+
+You simply submit a redemption request.
+
+```text
+You
+   │
+Redeem Units
+   │
+   ▼
+Debt Mutual Fund
+   │
+Returns money based on today's NAV
+```
+
+The fund manager doesn't wait for every bond to mature.
+
+Instead, the fund continuously manages its portfolio by:
+
+- Buying new bonds.
+- Selling bonds in the market.
+- Receiving interest payments.
+- Receiving principal when bonds mature.
+- Keeping some cash and highly liquid securities for daily redemptions.
+
+This is why **most debt mutual funds are open-ended**, meaning you can usually **buy or redeem units on any business day**.
+
+---
+
+#### Then what does "Duration" or "Maturity" mean?
+
+This is where many beginners get confused.
+
+There are **three different concepts**.
+
+#### 1. Bond Maturity
+
+Every bond has its own maturity date.
+
+Example:
+
+```text
+Government Bond
+
+Issued: 2026
+
+Matures: 2036
+```
+
+The Government returns the money in **2036**.
+
+---
+
+#### 2. Mutual Fund Maturity
+
+Most debt mutual funds **do not have a maturity date**.
+
+Example:
+
+```text
+ICICI Prudential Liquid Fund
+
+Started: 1999
+
+Still running today
+```
+
+As old bonds mature, the fund simply buys new ones.
+
+The fund itself keeps running indefinitely.
+
+**Exception:**
+Some funds **do** have a maturity date:
+
+- Fixed Maturity Plans (FMPs)
+- Target Maturity Funds (TMFs)
+
+We'll discuss these later.
+
+---
+
+#### 3. Fund Duration (Most Important)
+
+When you see names like:
+
+- Liquid Fund
+- Ultra Short Duration Fund
+- Short Duration Fund
+- Long Duration Fund
+
+they **do not** tell you how long **you** must stay invested.
+
+They describe the **average maturity (technically, Macaulay Duration)** of the bonds inside the fund.
+
+For example:
+
+```text
+Liquid Fund
+↓
+
+Mostly bonds maturing within 91 days
+```
+
+```text
+Short Duration Fund
+↓
+
+Average duration around 1–3 years
+```
+
+```text
+Long Duration Fund
+↓
+
+Average duration greater than 7 years
+```
+
+You are **not locked in** for those periods.
+
+They simply indicate what kind of bonds the fund owns.
+
+---
+
+#### Investment Horizon vs Bond Duration
+
+These are **not the same thing**.
+
+Example:
+
+A **Short Duration Fund** typically owns bonds with an average duration of **1–3 years**.
+
+That **doesn't mean** you must invest for exactly 3 years.
+
+It simply means the portfolio consists mainly of bonds of that duration.
+
+You can generally redeem your investment whenever you want.
+
+However, if you invest for a very short period (say, one month) in a long-duration fund, your returns may be affected by interest-rate movements.
+
+That's why AMCs recommend a suitable **investment horizon** for each category.
+
+---
+
+#### Rule of Thumb
+
+Don't confuse these three terms:
+
+| Term | Meaning |
+|------|---------|
+| **Bond Maturity** | When an individual bond repays its principal. |
+| **Fund Duration** | The average maturity (Macaulay Duration) of the bonds held by the mutual fund. This determines interest-rate sensitivity. |
+| **Investment Horizon** | How long **you** should ideally stay invested to match the fund's strategy. It is only a recommendation, not a lock-in period. |
+
+> **Remember:** In almost all **open-ended debt mutual funds**, you can **buy or redeem units on any business day**. The maturity usually refers to the **bonds owned by the fund**, not to a lock-in for you.
+
+---
+
+#### Then why are there different debt fund categories?
+
+Debt fund categories mainly differ in two ways:
+
+1. **Who is borrowing the money?**
+   - Government
+   - Banks
+   - Companies
+
+2. **For how long is the money lent? (Duration)**
+   - Overnight
+   - 3 months
+   - 2 years
+   - 10 years
+
+These two factors determine:
+
+- Expected returns
+- Risk
+- NAV fluctuations
+- Suitable investment horizon
+
+> **Rule of thumb:** Invest in debt funds primarily for **capital preservation, liquidity, and diversification**, not for chasing the highest returns.
+
+Debt mutual funds lend money by investing in **Government Securities (G-Secs), Treasury Bills (T-Bills), Corporate Bonds, Commercial Papers (CPs), Certificates of Deposit (CDs), etc.**
+
+Debt fund categories mainly differ in two ways:
+
+1. **Who is borrowing the money?**
+   - Government
+   - Banks
+   - Companies
+
+2. **For how long is the money lent? (Duration)**
+   - Shorter duration → More stable NAV, lower interest-rate risk.
+   - Longer duration → Higher NAV fluctuations, higher interest-rate risk.
+
+> **Rule of thumb:** Use debt funds primarily for **capital preservation, liquidity, and diversification**, not for chasing the highest returns.
+
+---
+
+#### A. Short-Term / Parking Money Funds
+
+#### 1. Overnight Fund
+- Invests in overnight instruments (mainly TREPS).
+- Average maturity: **1 day**.
+- Suitable for parking money for a few days.
+
+#### 2. Liquid Fund
+- Invests in instruments maturing within **91 days**.
+- Portfolio typically contains T-Bills, CPs, CDs and TREPS.
+- Suitable for money needed within a few weeks or months.
+
+#### 3. Ultra Short Duration Fund
+- Average **Macaulay Duration:** **3–6 months**.
+- Suitable for investment horizon of around **3–6 months**.
+
+#### 4. Low Duration Fund
+- Average **Macaulay Duration:** **6–12 months**.
+- Suitable for investment horizon of around **6–12 months**.
+
+#### 5. Money Market Fund
+- Invests only in money market instruments.
+- Maximum maturity of underlying instruments: **1 year**.
+
+---
+
+#### B. Duration-Based Funds
+
+#### 6. Short Duration Fund
+- Average **Macaulay Duration:** **1–3 years**.
+
+#### 7. Medium Duration Fund
+- Average **Macaulay Duration:** **3–4 years**.
+
+#### 8. Medium to Long Duration Fund
+- Average **Macaulay Duration:** **4–7 years**.
+
+#### 9. Long Duration Fund
+- Average **Macaulay Duration:** **More than 7 years**.
+- Most sensitive to interest-rate changes.
+
+> Longer duration **does not mean** higher returns. It simply means greater NAV volatility.
+
+---
+
+#### C. Funds Based on Borrower Type
+
+#### 10. Banking & PSU Fund
+- Invests mainly in:
+  - Banks
+  - Public Sector Undertakings (PSUs)
+  - Public Financial Institutions
+- Generally considered relatively safer corporate debt.
+
+#### 11. Corporate Bond Fund
+- At least **80%** invested in **AA+ and above rated corporate bonds**.
+- Suitable for investors seeking exposure to high-quality company debt.
+
+#### 12. Credit Risk Fund
+- At least **65%** invested in **below AA-rated corporate bonds**.
+- Higher potential returns but significantly higher default risk.
+- **Avoid unless you fully understand credit risk.**
+
+---
+
+#### D. Government Bond Funds
+
+#### 13. Gilt Fund
+- Invests **only** in Government Securities (G-Secs).
+- Virtually no credit/default risk.
+- Can still have significant NAV fluctuations due to interest-rate changes.
+
+#### 14. Gilt Fund with 10-Year Constant Duration
+- Invests only in Government Securities.
+- Maintains an average portfolio duration close to **10 years**.
+- Even more sensitive to interest-rate movements than many other debt funds.
+
+---
+
+#### E. Special Debt Funds
+
+#### 15. Floater Fund
+- Invests mainly in **floating-rate bonds**.
+- Interest payments move with market interest rates.
+- Less sensitive to rising interest rates than fixed-rate bond funds.
+
+#### 16. Dynamic Bond Fund
+- No fixed duration.
+- The fund manager actively changes the portfolio duration depending on the interest-rate outlook.
+- Suitable only if you trust the fund manager's strategy.
+
+---
+
+#### Other Popular Debt Products (Not SEBI Debt Categories)
+
+These are commonly discussed but are **not part of SEBI's 16 debt fund categories**.
+
+#### Fixed Maturity Plan (FMP)
+- A **close-ended** debt mutual fund.
+- You can invest only during the launch period.
+- The fund manager buys bonds maturing around the scheme's maturity date and generally holds them until maturity.
+
+#### Target Maturity Fund (TMF)
+- A **passive (index-based)** debt fund.
+- Tracks a bond index with a predefined maturity year (e.g. 2030, 2035).
+- Usually open-ended, allowing investments even after launch.
+- The maturity year is usually part of the scheme name.
 **Six Hybrid Categories**
 
 Blend of equity and debt:
