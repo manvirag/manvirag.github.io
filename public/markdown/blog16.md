@@ -2633,6 +2633,469 @@ That said, risk is not to be avoided, it's to be understood and managed. Everyon
 
 **Sortino ratio**: Like Sharpe, but only measures downside risk. A high Sortino means the fund's losses in bad times are contained, you're getting upside without proportional downside. **This is especially important**, you want a fund that falls less during crashes.
 
+#### Understanding P/E Ratio (For Beginners)
+
+Forget the formula for a moment.
+
+Imagine you're opening Groww and comparing two mutual funds.
+
+| Mutual Fund | Portfolio P/E |
+|-------------|--------------:|
+| Fund A | 12 |
+| Fund B | 60 |
+
+Immediately, the question is:
+
+> **What is this number trying to tell me?**
+
+To understand that, we first need to understand **why P/E was invented.**
+
+---
+
+#### Step 1: Companies earn profits
+
+Every company tries to make money.
+
+For example:
+
+| Company | Annual Profit |
+|----------|--------------:|
+| Company A | ₹100 crore |
+| Company B | ₹100 crore |
+
+Both companies earned exactly the same profit.
+
+So are they equally valuable?
+
+Not necessarily.
+
+---
+
+#### Step 2: The market decides a price
+
+Suppose today:
+
+| Company | Market Value |
+|----------|-------------:|
+| Company A | ₹1,000 crore |
+| Company B | ₹10,000 crore |
+
+Now ask yourself:
+
+> **Why is Company B worth 10 times more even though both companies currently earn the same profit?**
+
+This is exactly the question P/E tries to answer.
+
+---
+
+#### Step 3: What is the market thinking?
+
+The market is saying:
+
+#### Company A
+
+"We don't expect this company's profits to grow much."
+
+Maybe it is a mature business.
+
+Example:
+
+- Coal India
+- NTPC
+- Power Grid
+
+---
+
+#### Company B
+
+"We believe this company will earn much more in the future."
+
+Example:
+
+- NVIDIA
+- Microsoft
+- Amazon
+
+Investors are paying a much higher price today because they expect much larger profits tomorrow.
+
+---
+
+#### Step 4: This is what P/E measures
+
+P/E simply tells us:
+
+> **How expensive the company is compared to the profits it currently earns. So it is calculate as per share price/ eps , eps is bascially profit/no. of total shares , so basically how much profit to each share and the share price/eps -> its kind of unit profit , how much we are paying, so may be good company profit is same but we are paying more for a single share.**
+
+
+#### Step 1: Every company exists to make profit
+
+Suppose there is a company called **ABC Ltd.**
+
+At the end of the year:
+
+```text
+Revenue (Sales)     = ₹500 crore
+Expenses            = ₹400 crore
+------------------------------
+Profit              = ₹100 crore
+```
+
+The company earned **₹100 crore**.
+
+---
+
+#### Step 2: The company has many owners
+
+A company is divided into small ownership pieces called **shares**.
+
+Suppose ABC Ltd. has:
+
+```text
+10 crore shares
+```
+
+That means the ₹100 crore profit belongs to all shareholders.
+
+So each share gets:
+
+```text
+₹100 crore / 10 crore shares
+
+= ₹10
+```
+
+This ₹10 is called:
+
+> **EPS (Earnings Per Share)**
+
+So,
+
+```text
+EPS = ₹10
+```
+
+Think of EPS as:
+
+> **"How much profit did ONE share generate this year?"**
+
+---
+
+#### Step 3: What is the market willing to pay for that share?
+
+Suppose today the share price is:
+
+```text
+₹100
+```
+
+So we know:
+
+```text
+One share earns
+
+₹10 every year
+
+But people are paying
+
+₹100 to buy that share.
+```
+
+Immediately a question comes:
+
+> **How much am I paying for ₹10 of yearly earnings?**
+
+That's exactly why P/E exists.
+
+---
+
+#### Step 4: The Formula
+
+```text
+P/E = Share Price / EPS
+```
+
+In our example:
+
+```text
+P/E = 100 / 10
+
+= 10
+```
+
+---
+
+#### Step 5: What does P/E = 10 actually mean?
+
+This is the most important part.
+
+**P/E = 10 DOES NOT mean the company is good or bad.**
+
+It simply means:
+
+> **Investors are currently willing to pay ₹10 for every ₹1 of the company's current annual earnings.**
+
+Notice the wording.
+
+Not:
+
+- ₹10 profit.
+
+But:
+
+- ₹1 of annual profit.
+
+---
+
+#### Another Example
+
+Suppose another company has:
+
+```text
+Share Price = ₹500
+
+EPS = ₹10
+```
+
+Now:
+
+```text
+P/E = 500 / 10
+
+= 50
+```
+
+This means:
+
+> Investors are willing to pay **₹50 today** for every **₹1 of current annual earnings**.
+
+Now compare:
+
+| Company | Share Price | EPS | P/E |
+|----------|------------:|----:|----:|
+| A | ₹100 | ₹10 | 10 |
+| B | ₹500 | ₹10 | 50 |
+
+Both companies earn exactly the same amount today.
+
+But investors are paying **5 times more** for Company B.
+
+Now the obvious question is:
+
+> **Why?**
+
+Usually because investors believe Company B's profits will grow much faster in the future.
+
+
+
+#### Understanding Portfolio P/E Ratio (Price to Earnings)
+
+> **The biggest misconception:** A **high P/E does NOT mean a bad mutual fund**, and a **low P/E does NOT mean a good mutual fund**.
+
+#### What question does Portfolio P/E answer?
+
+Portfolio P/E answers:
+
+> **"How expensive are the companies inside this mutual fund compared to the profits they currently earn?"**
+
+Remember:
+
+- A mutual fund itself doesn't earn profits.
+- The **companies inside the mutual fund** earn profits.
+- Groww (or any platform) calculates the **weighted average P/E** of all those companies and displays it as the fund's Portfolio P/E.
+
+---
+
+#### Example
+
+#### Fund A
+
+Portfolio:
+
+- Coal India
+- ONGC
+- NTPC
+- Power Grid
+
+Portfolio P/E = **10**
+
+---
+
+#### Fund B
+
+Portfolio:
+
+- NVIDIA
+- Microsoft
+- Amazon
+- TSMC
+
+Portfolio P/E = **100**
+
+As a beginner, you might think:
+
+> "Fund A is cheaper, so I should buy Fund A."
+
+**Wrong.**
+
+The P/E ratio alone **does not tell you which fund is better.**
+
+---
+
+#### Why is Fund B's P/E much higher?
+
+Suppose today:
+
+#### NVIDIA
+
+Current profit (EPS): ₹10
+
+Investors believe:
+
+Next year: ₹20
+
+Then: ₹40
+
+Then: ₹80
+
+The market expects **very high future growth**, so investors are willing to pay much more today.
+
+Hence:
+
+**High P/E**
+
+---
+
+Now consider:
+
+#### Coal India
+
+Current profit (EPS): ₹10
+
+Expected next year:
+
+₹10.5
+
+Then:
+
+₹11
+
+Growth is expected to be much slower.
+
+So investors are **not willing to pay a huge premium**.
+
+Hence:
+
+**Low P/E**
+
+---
+
+#### What does Portfolio P/E actually tell me?
+
+It tells you **the type of companies** the mutual fund owns.
+
+#### Low Portfolio P/E usually means
+
+- Mature businesses
+- Stable companies
+- Slower expected growth
+- Often seen in **Value-oriented funds**
+
+Examples:
+
+- Coal India
+- NTPC
+- ONGC
+
+---
+
+#### High Portfolio P/E usually means
+
+- Fast-growing companies
+- Technology companies
+- Companies where investors expect strong future growth
+
+Examples:
+
+- NVIDIA
+- Microsoft
+- Amazon
+
+---
+
+#### Is a High P/E bad?
+
+**No.**
+
+A high P/E can mean:
+
+- Investors expect strong future earnings growth.
+- The companies are genuinely worth paying a premium for.
+
+It can also mean:
+
+- The stocks are overpriced.
+
+**P/E alone cannot tell which one is true.**
+
+---
+
+#### Is a Low P/E good?
+
+**Not always.**
+
+A low P/E can mean:
+
+- The company is undervalued (a good opportunity).
+
+OR
+
+- The company has serious business problems and the market expects weak future performance.
+
+Again,
+
+**P/E alone cannot tell which one is true.**
+
+---
+
+#### When is Portfolio P/E useful?
+
+Portfolio P/E is **not a decision metric**.
+
+It is a **descriptive metric**.
+
+It helps you understand:
+
+> **"What kind of companies does this mutual fund own?"**
+
+For example:
+
+| Portfolio P/E | What it generally indicates |
+|---------------|-----------------------------|
+| Low | Mature, value-oriented companies |
+| Medium | Balanced mix of value and growth companies |
+| High | Growth-oriented companies with high future expectations |
+
+---
+
+#### Can I compare Portfolio P/E between any two mutual funds?
+
+**No.**
+
+Only compare Portfolio P/E between **similar categories**.
+
+Good comparison:
+
+- Two Flexi Cap Funds
+- Two Large Cap Funds
+- Two Mid Cap Funds
+
+Bad comparison:
+
+- Nifty 50 Index Fund vs Nasdaq 100 Fund
+- Banking Fund vs Technology Fund
+
+Different categories naturally have different P/E levels.
+
 The ideal combination in shortlisted funds (compared to peers, not absolute): **Low standard deviation + High alpha + Low beta + High Sharpe + High Sortino**.
 
 #### The Risk-o-Meter
