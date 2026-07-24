@@ -3989,6 +3989,72 @@ For debt funds, the Risk-o-Meter consistency is crucial. Check the AMFI website 
 
 ### Chapter 11: Index Investing
 
+
+# Equity Mutual Funds
+
+```text
+Equity Mutual Funds
+│
+├── Active Funds
+│   ├── Large Cap
+│   ├── Flexi Cap
+│   ├── Mid Cap
+│   ├── Small Cap
+│   ├── Large & Mid Cap
+│   ├── Multi Cap
+│   ├── Focused
+│   ├── Value
+│   ├── Contra
+│   ├── ELSS (Tax Saver)
+│   └── Sectoral / Thematic
+│
+└── Passive Funds
+    ├── Nifty 50 Index
+    │   ├── UTI Nifty 50 Index Fund
+    │   ├── HDFC Nifty 50 Index Fund
+    │   └── ICICI Prudential Nifty 50 Index Fund
+    │
+    ├── Sensex Index
+    │   ├── HDFC Sensex Index Fund
+    │   └── SBI Sensex Index Fund
+    │
+    ├── Nifty Next 50 Index
+    │   ├── SBI Nifty Next 50 Index Fund
+    │   └── UTI Nifty Next 50 Index Fund
+    │
+    ├── Nifty Midcap 150 Index
+    │   ├── Motilal Oswal Nifty Midcap 150 Index Fund
+    │   └── DSP Nifty Midcap 150 Index Fund
+    │
+    ├── Nifty Smallcap 250 Index
+    │   ├── Motilal Oswal Nifty Smallcap 250 Index Fund
+    │   └── Tata Nifty Smallcap 250 Index Fund
+    │
+    ├── Nifty LargeMidcap 250 Index
+    │   ├── Zerodha Nifty LargeMidcap 250 Index Fund
+    │   └── Navi Nifty LargeMidcap 250 Index Fund
+    │
+    ├── Nifty 500 Index
+    │   ├── ICICI Prudential Nifty 500 Index Fund
+    │   └── Motilal Oswal Nifty 500 Index Fund
+    │
+    ├── Equal Weight Index
+    │   ├── DSP Nifty 50 Equal Weight Index Fund
+    │   └── ICICI Prudential Nifty100 Equal Weight Index Fund
+    │
+    ├── Sectoral Index
+    │   ├── Nippon India Nifty Bank Index Fund
+    │   └── HDFC Nifty IT Index Fund
+    │
+    ├── Thematic Index
+    │   ├── ICICI Prudential Nifty Infrastructure Index Fund
+    │   └── Motilal Oswal Nifty India Defence Index Fund
+    │
+    └── International Index
+        ├── Motilal Oswal Nasdaq 100 Index Fund
+        └── Navi US Total Stock Market Fund of Fund
+```
+
 #### The Case for Passive Investing
 
 Index funds track a market index (like Sensex or Nifty 50) by buying the same stocks in the same proportions. There is no fund manager making individual stock picks.
