@@ -1127,6 +1127,18 @@ Both have expense ratios similar to active equity funds; lock-in is useful for t
 - **Index funds and ETFs**: Passive funds tracking an index.
 - **Fund of Funds (FOFs)**: Invest in other mutual fund schemes. Same-house only (legal restriction). Used for international exposure and lifecycle allocation products.
 
+#### Commodity Investment Options (Gold & Silver)
+
+- **Physical Gold/Silver**: Invest by purchasing jewellery, coins, or bars. You directly own the metal, but storage, purity, insurance, and making charges (for jewellery) need to be considered. Best suited for personal use or long-term physical ownership.
+
+- **Gold/Silver ETF**: Exchange Traded Funds (ETFs) that invest in physical gold or silver bullion. They trade on the stock exchange like shares and require a **Demat and Trading Account**. They eliminate storage and purity concerns while closely tracking the market price of the metal.
+
+- **Gold/Silver Index Fund (Fund of Fund)**: A mutual fund that invests in a Gold or Silver ETF instead of buying the metal directly. Unlike equity index funds, these do **not** track a stock market index such as Nifty 50; they aim to replicate the price of the underlying metal through the ETF. Suitable for investors who want SIPs or do not have a Demat account.
+
+- **Gold/Silver Fund of Funds (FoF)**: Mutual funds that invest in one or more Gold/Silver ETFs. Functionally similar to Gold/Silver Index Funds, but the portfolio may include multiple commodity-related funds depending on the scheme. No Demat account is required.
+
+- **Sovereign Gold Bond (SGB)**: Government securities issued by the Government of India whose value is linked to the price of gold. Investors do not receive physical gold but benefit from changes in the gold price and also earn a fixed annual interest. Existing SGBs continue until maturity or redemption, although new issuances are currently paused.
+
 #### Active vs Passive Funds
 
 **Active (specialty restaurant analogy)**: A chef (fund manager) tries to outperform by selecting the best ingredients (stocks) based on skill and judgment. Costs more (higher expense ratio). May or may not outperform.
