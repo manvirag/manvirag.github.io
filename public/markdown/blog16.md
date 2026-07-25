@@ -1062,14 +1062,59 @@ These are commonly discussed but are **not part of SEBI's 16 debt fund categorie
 - Usually open-ended, allowing investments even after launch.
 - The maturity year is usually part of the scheme name.
 **Six Hybrid Categories**
+### Blend of Equity and Debt
 
-Blend of equity and debt:
-- **Conservative hybrid**: 75–90% debt, 10–25% equity. For income-seeking, risk-averse investors.
-- **Balanced hybrid**: ~50–50 (strict; SEBI doesn't allow arbitrage). Not widely available.
-- **Aggressive hybrid**: 65–80% equity, rest debt. Good for first-time equity investors who want debt cushion. Internal rebalancing between equity and debt happens without tax.
-- **Multi-asset allocation**: At least 3 asset classes (equity, debt, gold). Minimum 10% in each.
-- **Balanced advantage / Dynamic asset allocation**: Moves equity allocation dynamically based on valuations. Can reduce equity when market is high, increase when low. Good for risk-averse investors.
-- **Equity savings**: Minimum 65% equity + 10% debt + arbitrage. Lower volatility than pure equity.
+- **Conservative Hybrid**: Invests **75–90% in debt** and **10–25% in equity**. Designed for investors who want regular income and lower risk than pure equity funds. Returns are primarily driven by debt investments, while the small equity allocation helps improve long-term returns.
+
+- **Balanced Hybrid**: Invests approximately **40–60% in equity** and **40–60% in debt**. SEBI does not allow arbitrage exposure in this category. The objective is to maintain a balanced portfolio without taking excessive equity or debt exposure. Only a few schemes are available.
+
+- **Aggressive Hybrid**: Invests **65–80% in equity** and the remaining **20–35% in debt**. Suitable for first-time equity investors who want higher growth potential while reducing volatility through debt. The fund manager periodically rebalances the portfolio between equity and debt. Since this rebalancing happens inside the mutual fund, investors do not pay capital gains tax every time the fund rebalances.
+
+- **Multi Asset Allocation**: Invests in at least **three asset classes** (typically equity, debt, and gold), with **a minimum of 10% in each asset class**. The objective is diversification so that if one asset class performs poorly, another may offset the loss, reducing overall portfolio volatility.
+
+- **Balanced Advantage / Dynamic Asset Allocation**: The fund manager dynamically changes the allocation between equity and debt based on market valuations and risk. When markets appear expensive, the fund may reduce equity exposure and increase debt. When markets become attractive, it may increase equity exposure. The objective is to reduce downside risk while participating in long-term market growth.
+
+- **Equity Savings**: Invests in **equity, debt, and arbitrage strategies**. The equity portion provides long-term growth, debt provides stability, and arbitrage reduces market risk by hedging equity positions. These funds generally have lower volatility than pure equity funds while still qualifying for equity taxation.
+
+- **Arbitrage Fund**:
+  - Invests primarily in **equities and equity derivatives (futures)**.
+  - The fund **does not try to predict whether the market will go up or down**.
+  - Instead, it earns money by exploiting the **price difference (arbitrage spread)** between the **spot (cash) market** and the **futures market**.
+
+  **How it works (simplified):**
+  1. Suppose Reliance is trading at:
+     - Spot Price = **₹2,500**
+     - Future Price = **₹2,520**
+  2. The fund **buys the actual Reliance share** in the spot market for **₹2,500**.
+  3. At almost the same time, it **sells a futures contract** agreeing to sell Reliance later at **₹2,520**.
+  4. By doing both transactions together, the fund attempts to **lock in the ₹20 difference (before costs)**.
+  5. Whether Reliance later rises to ₹2,700 or falls to ₹2,300, the gain on one position is largely offset by the loss on the other because the two positions are **hedged**.
+
+  **How does it earn money?**
+  - From the **small spread between the spot price and the futures price**, not from stock price appreciation.
+  - It performs hundreds of such arbitrage trades across many stocks. Individually each trade earns only a small amount, but together they generate the fund's overall return.
+
+  **Why is it considered low risk?**
+  - The fund is **not exposed to normal stock market movements** because every stock purchase is usually paired with an opposite futures position.
+  - If the stock price increases, the stock gains while the futures position loses approximately the same amount.
+  - If the stock price decreases, the stock loses while the futures position gains approximately the same amount.
+  - Since these gains and losses largely offset each other, the fund experiences much lower volatility than a typical equity fund.
+
+  **Is it risk-free?**
+  - **No.**
+  - Small losses are still possible due to:
+    - Execution risk (one trade executes before the other).
+    - Transaction costs.
+    - Lower-than-expected arbitrage spreads.
+    - Temporary lack of liquidity in the futures market.
+  - However, these risks are generally much smaller than the market risk of a normal equity fund.
+
+  **Expected return**
+  - Historically, returns have been **similar to short-term debt or liquid funds**, rather than equity funds.
+  - Suitable for investors looking to park money for approximately **3–12 months**.
+
+  **Taxation**
+  - Although the risk and return profile resembles a debt fund, **Arbitrage Funds are taxed as Equity Mutual Funds** because they maintain at least **65% equity exposure** (with the equity position hedged using derivatives).
 
 **Two Solution-Oriented Categories**
 
