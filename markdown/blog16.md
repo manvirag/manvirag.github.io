@@ -1076,6 +1076,8 @@ These are commonly discussed but are **not part of SEBI's 16 debt fund categorie
 
 - **Equity Savings**: Invests in **equity, debt, and arbitrage strategies**. The equity portion provides long-term growth, debt provides stability, and arbitrage reduces market risk by hedging equity positions. These funds generally have lower volatility than pure equity funds while still qualifying for equity taxation.
 
+![](/markdown/blog16/equity_balance.png)
+
 - **Arbitrage Fund**:
   - Invests primarily in **equities and equity derivatives (futures)**.
   - The fund **does not try to predict whether the market will go up or down**.
