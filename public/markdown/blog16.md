@@ -1076,6 +1076,8 @@ These are commonly discussed but are **not part of SEBI's 16 debt fund categorie
 
 - **Equity Savings**: Invests in **equity, debt, and arbitrage strategies**. The equity portion provides long-term growth, debt provides stability, and arbitrage reduces market risk by hedging equity positions. These funds generally have lower volatility than pure equity funds while still qualifying for equity taxation.
 
+![](/markdown/blog16/equity_balance.png)
+
 - **Arbitrage Fund**:
   - Invests primarily in **equities and equity derivatives (futures)**.
   - The fund **does not try to predict whether the market will go up or down**.
@@ -2850,19 +2852,378 @@ A nominee is the person who can claim your mutual fund investment if you pass aw
 
 That said, risk is not to be avoided, it's to be understood and managed. Everyone takes risks daily: driving a car, eating street food, even marriage. The goal in investing is not to eliminate risk but to **reduce risk per unit of return**.
 
-#### Types of Risk
+### Types of Investment Risk
 
-**Inflation risk**: Keeping all money in FDs (earning 6–7%) when inflation is 5–6% gives barely 1% real return. Over 20 years, this means your purchasing power barely grows. PPF and FDs alone, while "safe," expose you to inflation risk on your long-term wealth.
+#### 1. Inflation Risk ⭐⭐⭐⭐⭐
 
-**Market risk (Systemic risk)**: The risk that the whole market falls together. Think 2008 financial crisis, COVID-19 crash. Cannot be reduced by diversification within the same asset class, when markets crash, most stocks fall together. However, diversifying across asset classes (equity + debt + gold) helps.
+**Meaning:** The value of your money decreases over time because the cost of living rises faster than your investments.
 
-**Interest rate risk**: Debt fund prices fall when interest rates rise, and vice versa. This is because a bond paying a fixed coupon looks less attractive when new bonds offer higher rates. **Longer maturity bonds are more sensitive to rate changes**, a 10-year gilt fund will swing wildly compared to a liquid fund. Rule: match debt fund duration to when you need the money.
+### Example
 
-**Credit risk**: The risk that a bond issuer can't repay. The 2015 **JP Morgan Amtek Auto case**: Amtek's credit rating was suddenly downgraded from AA– to C. Bond prices crashed. Investors in "short-term debt" funds that held these bonds lost significantly. The lesson: even "safe" short-term debt can harbor credit risk. The **2020 Franklin Templeton crisis**: the fund froze withdrawals from 6 debt schemes because it held lower-rated, illiquid bonds and faced mass redemptions, couldn't find buyers to sell bonds. Rs 25,000+ crore of investor money was locked for over a year.
+You keep ₹10 lakh in an FD earning **6%**.
 
-**Liquidity risk**: The risk of not being able to sell when you need to. Real estate is the worst example, distress sales mean price discounts, mafia involvement, and years of delay. In mutual funds, most liquid/money-market funds have excellent liquidity. Lower-rated bond funds can seize up in stressed markets (as Franklin Templeton proved).
+Inflation is **7%**.
 
-**Volatility risk**: Price swings. FDs have zero volatility (not traded). Liquid funds have minimal. Equity is highly volatile. **Key insight: short-term volatility is noise for long-term investors but fatal for short-term investors.** Don't put money in equity that you need in 2 years.
+After one year:
+
+- Bank balance = ₹10.6 lakh
+- Prices increased by 7%
+
+Although your money increased, your **buying power actually decreased**.
+
+> Inflation silently reduces your wealth. Your goal is not just to grow money, but to grow it faster than inflation.
+
+---
+
+#### 2. Market Risk (Systematic Risk) ⭐⭐⭐⭐⭐
+
+**Meaning:** The risk that the entire market falls because of events affecting the overall economy.
+
+This cannot be avoided by buying many stocks because almost all stocks fall together during market crashes.
+
+#### Example
+
+During COVID-19 (2020):
+
+- Nifty fell nearly 40%.
+- Good companies like Reliance, TCS, Infosys and HDFC Bank also fell.
+
+Nothing was wrong with these businesses—investors simply became fearful.
+
+#### How to reduce it
+
+- Invest for the long term.
+- Diversify across asset classes (Equity + Debt + Gold).
+
+---
+
+#### 3. Company Risk (Unsystematic Risk) ⭐⭐⭐⭐
+
+**Meaning:** The risk that one particular company performs poorly or fails.
+
+Unlike market risk, this affects only specific companies.
+
+#### Example
+
+- Yes Bank
+- DHFL
+- Vodafone Idea
+
+These companies struggled even when the overall market recovered.
+
+#### How to reduce it
+
+Diversification.
+
+Owning a mutual fund with 50–100 companies is much safer than buying just one or two stocks.
+
+---
+
+#### 4. Volatility Risk ⭐⭐⭐⭐⭐
+
+**Meaning:** The risk of prices moving up and down rapidly.
+
+Volatility does **not** mean permanent loss.
+
+It simply means prices fluctuate.
+
+#### Example
+
+Nifty returns:
+
+- Monday → +3%
+- Tuesday → -2%
+- Wednesday → +1%
+
+A long-term investor doesn't worry much.
+
+Someone needing money next month should.
+
+---
+
+#### 5. Liquidity Risk ⭐⭐⭐⭐
+
+**Meaning:** The risk of not being able to sell an investment quickly at a fair price.
+
+#### Example
+
+You own a house worth ₹80 lakh.
+
+You urgently need cash today.
+
+You have two options:
+
+- Wait several months for a buyer.
+- Sell immediately at ₹65 lakh.
+
+The second option is called a **distress sale**.
+
+The same thing can happen with:
+
+- Small-cap stocks
+- Lower-rated bonds
+- Certain debt securities
+
+---
+
+#### 6. Interest Rate Risk ⭐⭐⭐⭐
+
+**Meaning:** Bond prices move opposite to interest rates.
+
+When interest rates rise, existing bonds become less valuable.
+
+When interest rates fall, existing bonds become more valuable.
+
+#### Example
+
+You bought a bond paying **6% interest**.
+
+Later, the Government issues new bonds paying **8%**.
+
+New investors naturally prefer the 8% bond.
+
+To attract buyers, your old 6% bond must sell at a lower price.
+
+Therefore:
+
+- Interest rates ↑ → Bond prices ↓
+- Interest rates ↓ → Bond prices ↑
+
+#### Who is affected most?
+
+Long-duration debt funds.
+
+Liquid funds are affected very little.
+
+---
+
+#### 7. Credit Risk ⭐⭐⭐⭐
+
+**Meaning:** The borrower may fail to repay the money.
+
+#### Example
+
+Franklin Templeton Debt Fund Crisis (2020)
+
+The fund invested in lower-rated corporate bonds.
+
+When companies could not repay and investors rushed to withdraw money, the fund couldn't sell those bonds.
+
+Six debt schemes were frozen.
+
+Another example:
+
+JP Morgan Amtek Auto Fund (2015)
+
+Amtek Auto's credit rating suddenly collapsed.
+
+Its bond prices crashed.
+
+Debt fund investors suffered losses.
+
+---
+
+#### 8. Reinvestment Risk ⭐⭐
+
+**Meaning:** Future interest rates become lower, reducing future income.
+
+#### Example
+
+Your bond pays ₹50,000 interest every year.
+
+Initially, new bonds offered 8%.
+
+Later, interest rates fall and new bonds offer only 5%.
+
+Now you must reinvest your ₹50,000 at a lower return.
+
+---
+
+#### 9. Currency Risk ⭐⭐
+
+**Meaning:** Foreign exchange movements affect your returns.
+
+### Example
+
+Suppose:
+
+US stock return = +10%
+
+But the US Dollar weakens by 8% against the Indian Rupee.
+
+Your actual return in INR becomes only around 2%.
+
+Even though the stock performed well, currency movement reduced your returns.
+
+---
+
+#### 10. Concentration Risk ⭐⭐⭐
+
+**Meaning:** Investing too much money in one company, one sector or one asset.
+
+#### Example
+
+Your portfolio contains:
+
+- 100% IT stocks
+- or 100% Adani companies
+- or only one mutual fund
+
+If that sector performs poorly, your entire portfolio suffers.
+
+#### How to reduce it
+
+Diversify.
+
+---
+
+#### 11. Regulatory / Tax Risk ⭐⭐
+
+**Meaning:** Government rules or taxes change.
+
+#### Example
+
+Government changes:
+
+- LTCG tax
+- STCG tax
+- Debt fund taxation
+- Mutual fund regulations
+
+Even though your investments didn't change, your after-tax returns may change.
+
+---
+
+#### 12. Fund Manager Risk ⭐⭐⭐
+
+**Meaning:** The fund manager makes poor investment decisions.
+
+### Example
+
+The manager:
+
+- Buys expensive stocks.
+- Changes investment philosophy.
+- Takes unnecessary risks.
+- Holds poor-quality companies.
+
+The mutual fund underperforms because of management decisions.
+
+---
+
+#### 13. Counterparty Risk ⭐⭐
+
+**Meaning:** The person or institution on the other side of a financial contract fails to fulfil its promise.
+
+### Example
+
+A bank promises to buy back securities in a Repo transaction.
+
+If the bank defaults, the mutual fund may suffer losses or delays.
+
+This mainly affects:
+
+- Debt funds
+- Repo transactions
+- Derivatives
+
+---
+
+#### 14. Operational Risk ⭐
+
+**Meaning:** Losses caused by system failures, technology issues or human mistakes.
+
+#### Example
+
+- Exchange outage
+- Settlement failure
+- Wrong trade executed
+- Technical issue at CCIL
+
+Usually temporary but can delay transactions.
+
+---
+
+#### 15. Political / Geopolitical Risk ⭐⭐
+
+**Meaning:** Events like wars, sanctions, elections or government policy changes affect markets.
+
+#### Example
+
+Russia–Ukraine war increased oil prices and caused volatility across global markets.
+
+---
+
+#### 16. Sequence of Returns Risk ⭐⭐⭐
+
+**Meaning:** Poor returns early during retirement can permanently reduce wealth.
+
+#### Example
+
+You retire with ₹2 crore.
+
+The market falls 35% in your first year.
+
+You still withdraw money every month for expenses.
+
+Because you're selling investments after a crash, your portfolio may never fully recover.
+
+This risk mainly affects retirees.
+
+---
+
+#### 17. Behavioural Risk ⭐⭐⭐⭐⭐
+
+**Meaning:** The biggest risk is often the investor's own behaviour.
+
+#### Example
+
+- Panic selling during crashes.
+- Buying at market peaks.
+- Chasing last year's best-performing fund.
+- Constantly switching investments.
+
+Many investors earn lower returns than their mutual funds simply because of poor decisions.
+
+---
+
+#### Specialised Risks
+
+These mostly apply to specific investment products like debt funds, derivatives and REITs.
+
+You don't need to master them initially.
+
+- Spread Risk
+- Prepayment Risk
+- Zero Coupon Risk
+- Structured Obligation (SO) Risk
+- Credit Enhancement (CE) Risk
+- Securitisation Risk
+- Segregated Portfolio Risk
+- Repo Risk
+- Securities Lending Risk
+- Derivatives Risk
+- Covered Call Risk
+- REIT & InvIT Risk
+
+---
+
+#### The 10 Risks Every Beginner Should Know
+
+If you're just starting, focus on these:
+
+1. Inflation Risk
+2. Market Risk
+3. Company Risk
+4. Volatility Risk
+5. Liquidity Risk
+6. Interest Rate Risk
+7. Credit Risk
+8. Currency Risk
+9. Concentration Risk
+10. Behavioural Risk
+
+> These ten risks explain almost every investment product you'll encounter. The remaining risks are mostly specialised versions or combinations of these core concepts.
 
 #### Risk Measurement Metrics
 
