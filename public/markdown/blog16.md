@@ -1072,7 +1072,7 @@ These are commonly discussed but are **not part of SEBI's 16 debt fund categorie
 
 - **Multi Asset Allocation**: Invests in at least **three asset classes** (typically equity, debt, and gold), with **a minimum of 10% in each asset class**. The objective is diversification so that if one asset class performs poorly, another may offset the loss, reducing overall portfolio volatility.
 
-- **Balanced Advantage / Dynamic Asset Allocation**: The fund manager dynamically changes the allocation between equity and debt based on market valuations and risk. When markets appear expensive, the fund may reduce equity exposure and increase debt. When markets become attractive, it may increase equity exposure. The objective is to reduce downside risk while participating in long-term market growth.
+- **Balanced Advantage / Dynamic Asset Allocation**: The fund manager dynamically changes the allocation between equity and debt based on market valuations and risk. When markets appear expensive, the fund may reduce equity exposure and increase debt. When markets become attractive, it may increase equity exposure. The objective is to reduce downside risk while participating in long-term market growth. Also called as Balanced Advantage Fund.
 
 - **Equity Savings**: Invests in **equity, debt, and arbitrage strategies**. The equity portion provides long-term growth, debt provides stability, and arbitrage reduces market risk by hedging equity positions. These funds generally have lower volatility than pure equity funds while still qualifying for equity taxation.
 
