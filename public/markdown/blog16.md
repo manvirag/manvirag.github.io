@@ -1072,9 +1072,9 @@ These are commonly discussed but are **not part of SEBI's 16 debt fund categorie
 
 - **Multi Asset Allocation**: Invests in at least **three asset classes** (typically equity, debt, and gold), with **a minimum of 10% in each asset class**. The objective is diversification so that if one asset class performs poorly, another may offset the loss, reducing overall portfolio volatility.
 
-- **Balanced Advantage / Dynamic Asset Allocation**: The fund manager dynamically changes the allocation between equity and debt based on market valuations and risk. When markets appear expensive, the fund may reduce equity exposure and increase debt. When markets become attractive, it may increase equity exposure. The objective is to reduce downside risk while participating in long-term market growth. Also called as Balanced Advantage Fund.
+- **Balanced Advantage / Dynamic Asset Allocation**: Invests 0–100% in equity and 0–100% in debt. The fund manager dynamically changes the allocation between equity and debt based on market valuations and risk. When markets appear expensive, the fund may reduce equity exposure and increase debt. When markets become attractive, it may increase equity exposure. The objective is to reduce downside risk while participating in long-term market growth. Also called a Balanced Advantage Fund. Note: Most funds use arbitrage positions to keep gross equity above 65% to claim equity taxation benefits.
 
-- **Equity Savings**: Invests in **equity, debt, and arbitrage strategies**. The equity portion provides long-term growth, debt provides stability, and arbitrage reduces market risk by hedging equity positions. These funds generally have lower volatility than pure equity funds while still qualifying for equity taxation.
+- **Equity Savings**: Invests in **equity, debt, and arbitrage strategies**. Invests a minimum of 65% in total equity and equity-related instruments (including a minimum 10% in arbitrage/hedged equity) and a minimum of 10% in debt. The net unhedged equity exposure is usually lower (often 20–40%). The equity portion provides long-term growth, debt provides stability, and arbitrage reduces market risk by hedging equity positions. These funds generally have lower volatility than pure equity funds while still qualifying for equity taxation. 
 
 ![](/markdown/blog16/equity_balance.png)
 
@@ -4613,38 +4613,64 @@ Equity Mutual Funds
 │   └── Sectoral / Thematic
 │
 └── Passive Funds
-    ├── Nifty 50 Index
-    │   ├── UTI Nifty 50 Index Fund
-    │   ├── HDFC Nifty 50 Index Fund
-    │   └── ICICI Prudential Nifty 50 Index Fund
     │
-    ├── Sensex Index
-    │   ├── HDFC Sensex Index Fund
-    │   └── SBI Sensex Index Fund
+    ├── Broad Market Index
+    │   ├── Nifty 50 Index
+    │   │   ├── UTI Nifty 50 Index Fund
+    │   │   ├── HDFC Nifty 50 Index Fund
+    │   │   └── ICICI Prudential Nifty 50 Index Fund
+    │   │
+    │   ├── Sensex Index
+    │   │   ├── HDFC Sensex Index Fund
+    │   │   └── SBI Sensex Index Fund
+    │   │
+    │   ├── Nifty Next 50 Index
+    │   │   ├── SBI Nifty Next 50 Index Fund
+    │   │   └── UTI Nifty Next 50 Index Fund
+    │   │
+    │   ├── Nifty Midcap 150 Index
+    │   │   ├── Motilal Oswal Nifty Midcap 150 Index Fund
+    │   │   └── DSP Nifty Midcap 150 Index Fund
+    │   │
+    │   ├── Nifty Smallcap 250 Index
+    │   │   ├── Motilal Oswal Nifty Smallcap 250 Index Fund
+    │   │   └── Tata Nifty Smallcap 250 Index Fund
+    │   │
+    │   ├── Nifty LargeMidcap 250 Index
+    │   │   ├── Zerodha Nifty LargeMidcap 250 Index Fund
+    │   │   └── Navi Nifty LargeMidcap 250 Index Fund
+    │   │
+    │   └── Nifty 500 Index
+    │       ├── ICICI Prudential Nifty 500 Index Fund
+    │       └── Motilal Oswal Nifty 500 Index Fund
     │
-    ├── Nifty Next 50 Index
-    │   ├── SBI Nifty Next 50 Index Fund
-    │   └── UTI Nifty Next 50 Index Fund
-    │
-    ├── Nifty Midcap 150 Index
-    │   ├── Motilal Oswal Nifty Midcap 150 Index Fund
-    │   └── DSP Nifty Midcap 150 Index Fund
-    │
-    ├── Nifty Smallcap 250 Index
-    │   ├── Motilal Oswal Nifty Smallcap 250 Index Fund
-    │   └── Tata Nifty Smallcap 250 Index Fund
-    │
-    ├── Nifty LargeMidcap 250 Index
-    │   ├── Zerodha Nifty LargeMidcap 250 Index Fund
-    │   └── Navi Nifty LargeMidcap 250 Index Fund
-    │
-    ├── Nifty 500 Index
-    │   ├── ICICI Prudential Nifty 500 Index Fund
-    │   └── Motilal Oswal Nifty 500 Index Fund
-    │
-    ├── Equal Weight Index
-    │   ├── DSP Nifty 50 Equal Weight Index Fund
-    │   └── ICICI Prudential Nifty100 Equal Weight Index Fund
+    ├── Smart Beta Index
+    │   ├── Momentum
+    │   │   ├── Motilal Oswal Nifty 200 Momentum 30 Index Fund
+    │   │   ├── Tata Nifty 200 Momentum 30 Index Fund
+    │   │   └── Edelweiss Nifty200 Momentum 30 Index Fund
+    │   │
+    │   ├── Quality
+    │   │   ├── ICICI Prudential Nifty200 Quality 30 Index Fund
+    │   │   └── Edelweiss Nifty200 Quality 30 Index Fund
+    │   │
+    │   ├── Alpha
+    │   │   ├── DSP Nifty Alpha 50 Index Fund
+    │   │   └── Nippon India Nifty Alpha 50 Index Fund
+    │   │
+    │   ├── Value
+    │   │   └── UTI Nifty50 Value 20 Index Fund
+    │   │
+    │   ├── Low Volatility
+    │   │   └── ICICI Prudential Nifty100 Low Volatility 30 ETF
+    │   │
+    │   ├── Equal Weight
+    │   │   ├── DSP Nifty 50 Equal Weight Index Fund
+    │   │   └── ICICI Prudential Nifty100 Equal Weight Index Fund
+    │   │
+    │   └── Multi Factor
+    │       ├── Nippon India Nifty 500 Multifactor MQVLv50 Index Fund
+    │       └── HDFC Nifty200 Multi Factor 30 Index Fund
     │
     ├── Sectoral Index
     │   ├── Nippon India Nifty Bank Index Fund
@@ -4655,7 +4681,10 @@ Equity Mutual Funds
     │   └── Motilal Oswal Nifty India Defence Index Fund
     │
     └── International Index
-        ├── Motilal Oswal Nasdaq 100 Index Fund
+        ├── Motilal Oswal S&P 500 Index Fund
+        ├── Motilal Oswal Nasdaq 100 FoF
+        ├── Kotak US Specific Equity Passive FoF
+        ├── Motilal Oswal Developed Market Ex-US ETFs Passive FoF
         └── Navi US Total Stock Market Fund of Fund
 ```
 
