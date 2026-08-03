@@ -4615,78 +4615,509 @@ Equity Mutual Funds
 └── Passive Funds
     │
     ├── Broad Market Index
+    │
     │   ├── Nifty 50 Index
+    │   │   → Tracks India's 50 largest companies based on free-float market capitalization.
     │   │   ├── UTI Nifty 50 Index Fund
     │   │   ├── HDFC Nifty 50 Index Fund
     │   │   └── ICICI Prudential Nifty 50 Index Fund
     │   │
     │   ├── Sensex Index
+    │   │   → Tracks 30 of the largest and most established companies listed on BSE.
     │   │   ├── HDFC Sensex Index Fund
     │   │   └── SBI Sensex Index Fund
     │   │
     │   ├── Nifty Next 50 Index
+    │   │   → Tracks the next 50 largest companies after the Nifty 50 (rank 51–100).
     │   │   ├── SBI Nifty Next 50 Index Fund
     │   │   └── UTI Nifty Next 50 Index Fund
     │   │
     │   ├── Nifty Midcap 150 Index
+    │   │   → Tracks 150 mid-sized companies (roughly rank 101–250 by market cap).
     │   │   ├── Motilal Oswal Nifty Midcap 150 Index Fund
     │   │   └── DSP Nifty Midcap 150 Index Fund
     │   │
     │   ├── Nifty Smallcap 250 Index
+    │   │   → Tracks 250 small-cap companies (roughly rank 251–500 by market cap).
     │   │   ├── Motilal Oswal Nifty Smallcap 250 Index Fund
     │   │   └── Tata Nifty Smallcap 250 Index Fund
     │   │
     │   ├── Nifty LargeMidcap 250 Index
+    │   │   → Tracks the top 100 large-cap and next 150 mid-cap companies.
     │   │   ├── Zerodha Nifty LargeMidcap 250 Index Fund
     │   │   └── Navi Nifty LargeMidcap 250 Index Fund
     │   │
     │   └── Nifty 500 Index
+    │       → Tracks the top 500 companies, covering nearly the entire Indian equity market.
     │       ├── ICICI Prudential Nifty 500 Index Fund
     │       └── Motilal Oswal Nifty 500 Index Fund
     │
     ├── Smart Beta Index
+    │
     │   ├── Momentum
+    │   │   → Selects stocks with the strongest recent price performance.
     │   │   ├── Motilal Oswal Nifty 200 Momentum 30 Index Fund
     │   │   ├── Tata Nifty 200 Momentum 30 Index Fund
     │   │   └── Edelweiss Nifty200 Momentum 30 Index Fund
     │   │
     │   ├── Quality
+    │   │   → Selects fundamentally strong companies (high ROE, low debt, stable earnings).
     │   │   ├── ICICI Prudential Nifty200 Quality 30 Index Fund
     │   │   └── Edelweiss Nifty200 Quality 30 Index Fund
     │   │
     │   ├── Alpha
+    │   │   → Selects stocks with historically higher risk-adjusted returns than the benchmark.
     │   │   ├── DSP Nifty Alpha 50 Index Fund
     │   │   └── Nippon India Nifty Alpha 50 Index Fund
     │   │
     │   ├── Value
+    │   │   → Selects relatively undervalued companies using valuation metrics like P/E and P/B.
     │   │   └── UTI Nifty50 Value 20 Index Fund
     │   │
     │   ├── Low Volatility
+    │   │   → Selects stocks that have historically shown lower price fluctuations.
     │   │   └── ICICI Prudential Nifty100 Low Volatility 30 ETF
     │   │
     │   ├── Equal Weight
+    │   │   → Gives every company the same portfolio weight instead of weighting by market cap.
     │   │   ├── DSP Nifty 50 Equal Weight Index Fund
     │   │   └── ICICI Prudential Nifty100 Equal Weight Index Fund
     │   │
     │   └── Multi Factor
+    │       → Combines multiple factors such as Momentum, Quality, Value and Low Volatility.
     │       ├── Nippon India Nifty 500 Multifactor MQVLv50 Index Fund
     │       └── HDFC Nifty200 Multi Factor 30 Index Fund
     │
     ├── Sectoral Index
+    │   → Tracks companies belonging to a single sector.
     │   ├── Nippon India Nifty Bank Index Fund
     │   └── HDFC Nifty IT Index Fund
     │
     ├── Thematic Index
+    │   → Tracks companies benefiting from a common investment theme across multiple sectors.
     │   ├── ICICI Prudential Nifty Infrastructure Index Fund
     │   └── Motilal Oswal Nifty India Defence Index Fund
     │
     └── International Index
+        → Tracks overseas markets through index funds or passive Fund of Funds (FoFs).
         ├── Motilal Oswal S&P 500 Index Fund
+        │   → Tracks the S&P 500 Index (500 largest U.S. companies).
         ├── Motilal Oswal Nasdaq 100 FoF
+        │   → Invests in an ETF tracking the NASDAQ-100 Index (100 largest non-financial Nasdaq-listed companies).
         ├── Kotak US Specific Equity Passive FoF
+        │   → Invests in an ETF tracking the NASDAQ-100 Index.
         ├── Motilal Oswal Developed Market Ex-US ETFs Passive FoF
+        │   → Tracks developed markets excluding the United States.
         └── Navi US Total Stock Market Fund of Fund
+            → Invests in an ETF tracking the entire U.S. stock market (large-, mid-, and small-cap companies).
 ```
+
+#### Smart Beta Mutual Funds
+
+#### What are Smart Beta Mutual Funds?
+
+Smart Beta Mutual Funds are **passive mutual funds** that track **Smart Beta Indices**.
+
+Unlike a traditional index (e.g., Nifty 50 or S&P 500), which selects and weights stocks primarily based on **free-float market capitalization**, Smart Beta indices use **predefined quantitative rules (called factors)** to select and/or weight stocks.
+
+The fund manager **does not actively choose stocks**. Their job is simply to replicate the Smart Beta Index as closely as possible.
+
+---
+
+#### Traditional Index vs Smart Beta
+
+**Traditional Index**
+
+- Selection: Based on market capitalization.
+- Weight: Larger companies get higher weights.
+- Example: Nifty 50, Sensex, Nifty 500, S&P 500.
+
+Example:
+
+```
+Reliance      10%
+HDFC Bank      9%
+ICICI Bank     8%
+...
+```
+
+---
+
+**Smart Beta Index**
+
+- Selection: Based on predefined investment factors.
+- Weight: Determined by the index methodology (may not be market-cap based).
+- Example: Nifty200 Momentum 30, Nifty200 Quality 30.
+
+Example:
+
+```
+Start with Nifty 200
+        ↓
+Apply Momentum Rule
+        ↓
+Select Top 30 Stocks
+        ↓
+Create the Index
+```
+
+---
+
+#### Why is it called "Smart Beta"?
+
+Traditional Beta:
+
+> Bigger company = Bigger weight
+
+Smart Beta:
+
+> Follow a "smarter" rule instead of only market capitalization.
+
+Examples of rules:
+
+- Momentum
+- Quality
+- Value
+- Alpha
+- Low Volatility
+- Equal Weight
+- Multi-Factor
+
+It is still **passive investing**, because everything follows predefined rules and not a fund manager's opinion.
+
+---
+
+#### Common Smart Beta Categories
+
+#### 1. Momentum
+
+**Objective:** Invest in stocks with the strongest recent price performance.
+
+**How it works:**
+
+Start with a parent index (e.g., Nifty 200).
+
+Example:
+
+| Stock | 1-Year Return |
+|-------|--------------:|
+| HAL | 80% |
+| BEL | 70% |
+| Trent | 65% |
+| Reliance | 8% |
+
+The index selects the companies showing the strongest momentum.
+
+**Example Index**
+
+- Nifty 200 Momentum 30
+
+Meaning:
+
+- Start with Nifty 200.
+- Measure momentum for every company.
+- Select the top 30 momentum stocks.
+- Build the index according to predefined rules.
+
+**Example Funds**
+
+- Motilal Oswal Nifty 200 Momentum 30 Index Fund
+- Tata Nifty 200 Momentum 30 Index Fund
+- Edelweiss Nifty200 Momentum 30 Index Fund
+
+---
+
+#### 2. Quality
+
+**Objective:** Invest in fundamentally strong companies.
+
+Looks for companies having:
+
+- High Return on Equity (ROE)
+- Low Debt
+- Stable Earnings
+- Consistent Profitability
+
+Example:
+
+| Company | Why it qualifies |
+|----------|------------------|
+| Nestlé India | Strong profits, low debt |
+| Asian Paints | Consistent earnings |
+| HDFC Bank | High ROE, stable business |
+
+**Example Index**
+
+- Nifty200 Quality 30
+
+Meaning:
+
+- Start with Nifty 200.
+- Calculate a Quality Score.
+- Select the best 30 companies.
+- Create the index.
+
+**Example Funds**
+
+- ICICI Prudential Nifty200 Quality 30 Index Fund
+- Edelweiss Nifty200 Quality 30 Index Fund
+
+---
+
+#### 3. Value
+
+**Objective:** Invest in companies that appear undervalued.
+
+Looks at valuation metrics like:
+
+- Low P/E
+- Low P/B
+- High Dividend Yield
+
+Example:
+
+| Company | PE |
+|----------|---:|
+| SBI | 11 |
+| ONGC | 8 |
+| Coal India | 9 |
+
+These companies may be selected because they look relatively inexpensive.
+
+**Example Index**
+
+- Nifty50 Value 20
+
+Meaning:
+
+- Start with Nifty 50.
+- Identify the most undervalued companies.
+- Select the best 20.
+- Build the index.
+
+**Example Fund**
+
+- UTI Nifty50 Value 20 Index Fund
+
+---
+
+#### 4. Alpha
+
+**Objective:** Invest in stocks that have historically delivered higher risk-adjusted excess returns than the benchmark.
+
+Unlike Momentum, Alpha considers both:
+
+- Return
+- Risk
+
+A stock with slightly lower returns but much lower risk may score better than one with higher returns and much higher risk.
+
+**Example Index**
+
+- Nifty Alpha 50
+
+Meaning:
+
+- Evaluate Alpha for eligible stocks.
+- Select the 50 highest Alpha stocks.
+- Create the index.
+
+**Example Funds**
+
+- DSP Nifty Alpha 50 Index Fund
+- Nippon India Nifty Alpha 50 Index Fund
+
+---
+
+#### 5. Low Volatility
+
+**Objective:** Invest in stocks whose prices fluctuate less.
+
+Example:
+
+| Stock | Volatility |
+|---------|-----------:|
+| Nestlé | Low |
+| ITC | Low |
+| HDFC Bank | Moderate |
+| HAL | High |
+
+The Low Volatility Index prefers companies with historically steadier prices.
+
+**Example Index**
+
+- Nifty100 Low Volatility 30
+
+Meaning:
+
+- Start with Nifty 100.
+- Measure historical volatility.
+- Select the 30 least volatile stocks.
+
+**Example Fund**
+
+- ICICI Prudential Nifty100 Low Volatility 30 ETF
+
+---
+
+#### 6. Equal Weight
+
+**Objective:** Give every company exactly the same weight.
+
+Traditional Nifty 50
+
+```
+Reliance      10%
+HDFC Bank      9%
+ICICI Bank     8%
+...
+```
+
+Equal Weight
+
+```
+50 Companies
+
+Every Company = 2%
+```
+
+This reduces concentration in the largest companies.
+
+**Example Funds**
+
+- DSP Nifty 50 Equal Weight Index Fund
+- ICICI Prudential Nifty100 Equal Weight Index Fund
+
+---
+
+#### 7. Multi-Factor
+
+**Objective:** Combine multiple investment factors into a single index.
+
+Instead of using only one factor, the index may combine:
+
+- Momentum
+- Quality
+- Value
+- Low Volatility
+
+Example:
+
+```
+Nifty 500
+      ↓
+Measure Momentum
+Measure Quality
+Measure Value
+Measure Volatility
+      ↓
+Combine Scores
+      ↓
+Select Best Companies
+```
+
+The exact combination depends on the index methodology.
+
+**Example Funds**
+
+- Nippon India Nifty 500 Multifactor MQVLv50 Index Fund
+- HDFC Nifty200 Multi Factor 30 Index Fund
+---
+
+#### How to Read a Smart Beta Index Name
+
+Example:
+
+```
+Nifty 200 Momentum 30
+```
+
+Breakdown:
+
+- **Nifty 200** → Parent Universe (200 eligible companies)
+- **Momentum** → Selection Rule (Factor)
+- **30** → Final portfolio contains 30 stocks
+
+Another example:
+
+```
+Nifty200 Quality 30
+```
+
+Means:
+
+1. Start with Nifty 200.
+2. Measure Quality score for each stock.
+3. Select the best 30 companies.
+4. Build the index according to its methodology.
+
+---
+
+#### Advantages
+
+- Passive and rule-based.
+- No fund manager bias.
+- Transparent methodology.
+- Generally lower expense ratio than active funds.
+- Can target specific investment factors.
+- Historically, some factors have outperformed the broad market over certain periods (not guaranteed).
+
+---
+
+#### Disadvantages
+
+- No factor consistently outperforms in every market cycle.
+- Can underperform broad market indices for several years.
+- More concentrated than broad market indices.
+- Some Smart Beta funds have relatively smaller AUM.
+- Higher portfolio turnover than traditional market-cap indices may increase tracking costs.
+
+---
+
+#### Smart Beta vs Active Funds
+
+| Smart Beta | Active Fund |
+|------------|-------------|
+| Rule-based | Manager-based |
+| Passive | Active |
+| Transparent methodology | Manager decides portfolio |
+| Lower expense ratio | Higher expense ratio |
+| No manager bias | Manager's skill affects returns |
+
+---
+
+#### Smart Beta vs Broad Market Index
+
+| Broad Market Index | Smart Beta |
+|--------------------|------------|
+| Based on market capitalization | Based on predefined factors |
+| Very broad diversification | More concentrated |
+| Represents the overall market | Represents a specific investment strategy |
+| Lower turnover | Higher turnover |
+| Suitable as a core portfolio | Better as a satellite allocation |
+
+---
+
+#### Typical Portfolio Usage
+
+Core Portfolio (70–90%)
+
+- Nifty 50 Index Fund
+- Nifty 500 Index Fund
+- S&P 500 Index Fund
+
+Satellite Allocation (10–30%)
+
+- Momentum
+- Quality
+- Alpha
+- Value
+- Equal Weight
+- Multi-Factor
+
+
+
+
 
 #### The Case for Passive Investing
 
