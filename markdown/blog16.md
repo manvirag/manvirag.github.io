@@ -4615,77 +4615,101 @@ Equity Mutual Funds
 └── Passive Funds
     │
     ├── Broad Market Index
+    │
     │   ├── Nifty 50 Index
+    │   │   → Tracks India's 50 largest companies based on free-float market capitalization.
     │   │   ├── UTI Nifty 50 Index Fund
     │   │   ├── HDFC Nifty 50 Index Fund
     │   │   └── ICICI Prudential Nifty 50 Index Fund
     │   │
     │   ├── Sensex Index
+    │   │   → Tracks 30 of the largest and most established companies listed on BSE.
     │   │   ├── HDFC Sensex Index Fund
     │   │   └── SBI Sensex Index Fund
     │   │
     │   ├── Nifty Next 50 Index
+    │   │   → Tracks the next 50 largest companies after the Nifty 50 (rank 51–100).
     │   │   ├── SBI Nifty Next 50 Index Fund
     │   │   └── UTI Nifty Next 50 Index Fund
     │   │
     │   ├── Nifty Midcap 150 Index
+    │   │   → Tracks 150 mid-sized companies (roughly rank 101–250 by market cap).
     │   │   ├── Motilal Oswal Nifty Midcap 150 Index Fund
     │   │   └── DSP Nifty Midcap 150 Index Fund
     │   │
     │   ├── Nifty Smallcap 250 Index
+    │   │   → Tracks 250 small-cap companies (roughly rank 251–500 by market cap).
     │   │   ├── Motilal Oswal Nifty Smallcap 250 Index Fund
     │   │   └── Tata Nifty Smallcap 250 Index Fund
     │   │
     │   ├── Nifty LargeMidcap 250 Index
+    │   │   → Tracks the top 100 large-cap and next 150 mid-cap companies.
     │   │   ├── Zerodha Nifty LargeMidcap 250 Index Fund
     │   │   └── Navi Nifty LargeMidcap 250 Index Fund
     │   │
     │   └── Nifty 500 Index
+    │       → Tracks the top 500 companies, covering nearly the entire Indian equity market.
     │       ├── ICICI Prudential Nifty 500 Index Fund
     │       └── Motilal Oswal Nifty 500 Index Fund
     │
     ├── Smart Beta Index
+    │
     │   ├── Momentum
+    │   │   → Selects stocks with the strongest recent price performance.
     │   │   ├── Motilal Oswal Nifty 200 Momentum 30 Index Fund
     │   │   ├── Tata Nifty 200 Momentum 30 Index Fund
     │   │   └── Edelweiss Nifty200 Momentum 30 Index Fund
     │   │
     │   ├── Quality
+    │   │   → Selects fundamentally strong companies (high ROE, low debt, stable earnings).
     │   │   ├── ICICI Prudential Nifty200 Quality 30 Index Fund
     │   │   └── Edelweiss Nifty200 Quality 30 Index Fund
     │   │
     │   ├── Alpha
+    │   │   → Selects stocks with historically higher risk-adjusted returns than the benchmark.
     │   │   ├── DSP Nifty Alpha 50 Index Fund
     │   │   └── Nippon India Nifty Alpha 50 Index Fund
     │   │
     │   ├── Value
+    │   │   → Selects relatively undervalued companies using valuation metrics like P/E and P/B.
     │   │   └── UTI Nifty50 Value 20 Index Fund
     │   │
     │   ├── Low Volatility
+    │   │   → Selects stocks that have historically shown lower price fluctuations.
     │   │   └── ICICI Prudential Nifty100 Low Volatility 30 ETF
     │   │
     │   ├── Equal Weight
+    │   │   → Gives every company the same portfolio weight instead of weighting by market cap.
     │   │   ├── DSP Nifty 50 Equal Weight Index Fund
     │   │   └── ICICI Prudential Nifty100 Equal Weight Index Fund
     │   │
     │   └── Multi Factor
+    │       → Combines multiple factors such as Momentum, Quality, Value and Low Volatility.
     │       ├── Nippon India Nifty 500 Multifactor MQVLv50 Index Fund
     │       └── HDFC Nifty200 Multi Factor 30 Index Fund
     │
     ├── Sectoral Index
+    │   → Tracks companies belonging to a single sector.
     │   ├── Nippon India Nifty Bank Index Fund
     │   └── HDFC Nifty IT Index Fund
     │
     ├── Thematic Index
+    │   → Tracks companies benefiting from a common investment theme across multiple sectors.
     │   ├── ICICI Prudential Nifty Infrastructure Index Fund
     │   └── Motilal Oswal Nifty India Defence Index Fund
     │
     └── International Index
+        → Tracks overseas markets through index funds or passive Fund of Funds (FoFs).
         ├── Motilal Oswal S&P 500 Index Fund
+        │   → Tracks the S&P 500 Index (500 largest U.S. companies).
         ├── Motilal Oswal Nasdaq 100 FoF
+        │   → Invests in an ETF tracking the NASDAQ-100 Index (100 largest non-financial Nasdaq-listed companies).
         ├── Kotak US Specific Equity Passive FoF
+        │   → Invests in an ETF tracking the NASDAQ-100 Index.
         ├── Motilal Oswal Developed Market Ex-US ETFs Passive FoF
+        │   → Tracks developed markets excluding the United States.
         └── Navi US Total Stock Market Fund of Fund
+            → Invests in an ETF tracking the entire U.S. stock market (large-, mid-, and small-cap companies).
 ```
 
 #### The Case for Passive Investing
