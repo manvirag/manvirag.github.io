@@ -1,6 +1,21 @@
 // src/blogData.js
 export const blogData = [
-  
+  {
+    id: 19,
+    title: "how different muscles work in the gym [as per 2026 knowledge, In Progress]",
+    subheading: "muscle groups, what each exercise actually hits, and a simple split for an athletic frame",
+    publishedDate: "2026-08-28",
+    link: "/writing/19",
+    tags: ["health", "life", "2026"]
+  },
+  {
+    id: 18,
+    title: "term and health insurance guide [as per 2026 knowledge]",
+    subheading: "",
+    publishedDate: "2026-08-03",
+    link: "/writing/18",
+    tags: ["finance", "health", "2026"]
+  },
   {
     id: 16,
     title: "mutual fund basics",
