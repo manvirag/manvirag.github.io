@@ -1,6 +1,6 @@
 ### how different muscles work, and what actually trains them
 
-This is a personal gym note. The aim is simple: understand **which muscle group does what**, **which exercise hits it**, and **what form change shifts the load**. Not a diet plan. Not a coach program. Just the technical map.
+This is a personal gym note. The aim is simple: understand **which muscle group does what**, **which exercise hits it**, and **what form change shifts the load**. Not a diet plan. Not a coach program. Just the technical map, with few exercise ( we can have lots more its just mental model. ). Also muscle group on high level ( we not reading biology so that we go that deep dive this is for gym only. )
 
 Muscle is broken during a workout and rebuilt after. The exercise only decides *which* tissue you stressed. Form decides whether you actually stressed that tissue, or just moved weight with momentum.
 
@@ -51,7 +51,7 @@ Glutes have multiple parts. For training, treat them as one group that extends t
 
 **Hamstring (back of thigh)**
 
-- **RDL** again. Cue is different from a conventional deadlift: in a deadlift you sit the hips down more; in an RDL the hips travel back. Not much knee bend if the goal is hamstring.
+- **RDL** again. It is different from a conventional deadlift: in a deadlift you sit the hips down more; in an RDL the hips travel back. Not much knee bend if the goal is hamstring.
 
 **Quadriceps (front of thigh)**
 
@@ -83,7 +83,7 @@ At a practical level, one pattern is enough: **calf raise**. Different machines,
 
 ---
 
-### shoulders
+### Shoulders
 
 Three heads: **front**, **side (lateral)**, **rear**.
 
@@ -108,7 +108,6 @@ Three heads: **front**, **side (lateral)**, **rear**.
 
 ![](/markdown/blog19/rear-delt-1.png)
 
-![](/markdown/blog19/rear-delt-2.png)
 
 ---
 
@@ -159,7 +158,7 @@ Do wrist curl and reverse wrist curl as a superset.
 
 ---
 
-### chest
+### Chest
 
 Upper, middle, lower. [overview](https://youtu.be/MxnzcssW-tk)
 
@@ -175,7 +174,7 @@ For a lean athletic frame (think swimmer / cricket-athlete look, not bodybuilder
 
 ---
 
-### abs
+### Abs
 
 Three parts you actually train. There is a fourth piece that helps the V-shape below the navel; don’t overthink it.
 
@@ -202,7 +201,7 @@ Three parts you actually train. There is a fourth piece that helps the V-shape b
 
 ---
 
-### back
+### Back
 
 This is the messy one. A lot of muscles, one visual job: **width (V-taper)** + **thickness**.
 
@@ -227,7 +226,7 @@ Wide pulldown for the V. Row for thickness. Close pulldown to fill lower lats. T
 
 ---
 
-### neck
+### Neck
 
 Sensitive. Slow, no jerking.
 
@@ -238,11 +237,11 @@ Sensitive. Slow, no jerking.
 
 ---
 
-### exercise list
+### Exercise list
 
 If the physique is athletic rather than max-mass, the physics is: **arms**, **back V**, **chest**, **abs**, **legs**. Compound first, isolation after.
 
-**Compound**
+**Compound ( affect mutiple muscle overall strengths )**
 
 1. bulgarian split squat (glute focus)
 2. romanian deadlift
@@ -279,11 +278,10 @@ If the physique is athletic rather than max-mass, the physics is: **arms**, **ba
 6. cross-body mountain climbers
 7. neck: rounded motion / curl / reverse curl (careful)
 
-![](/markdown/blog19/compound-vs-isolation.png)
 
 ---
 
-### weekly split
+### Weekly split ( There are a lot different way, this is one of them . You can learn more about different. Need to refine more, in progress. )
 
 Push / pull / legs, then a second upper and lower. Two rest days.
 
@@ -310,22 +308,23 @@ Wider back makes the waist look smaller. That is most of the V.
 - dumbbell hammer curl
 - incline DB curl
 - preacher curl
-- seated DB wrist curl superset reverse wrist curl
+- seated DB wrist curl superset reverse wrist curl, cross
 - no abs
 
 #### day 3 — legs + abs
 
 Posterior chain + a core circuit.
 
+- Squat — 3 × 8–10
 - RDL — 3 × 8–10
-- bulgarian split squat (glute focus) — 2 × 10–12 / leg
+- bulgarian split squat (glute focus) — 2 × 10–12 / or lunge
 - calf raise — 4 × 15
 - russian twist — 3 × 20 total
 - cross-body mountain climbers — 3 × 45s
 
 #### day 4 — rest
 
-#### day 5 — upper (shoulders + lat width again)
+#### day 5 — upper (shoulders + lat width again) -> Need to update more.
 
 - incline dumbbell press
 - lat pulldown (wide) — 3 × 8–10
@@ -348,12 +347,3 @@ Posterior chain + a core circuit.
 
 ---
 
-### short rules I keep repeating
-
-- one muscle group, many lifts. the lift is just a way to load a joint angle.
-- **stance / torso angle / grip width** change the muscle more than swapping brand of machine.
-- pause at the hard part. momentum is not the muscle.
-- compound first, isolation later.
-- neck and rear delts are easy to skip and easy to injure. slow.
-
-This is a map, not medical advice. Form videos above are the source of truth when the written cue is fuzzy.
