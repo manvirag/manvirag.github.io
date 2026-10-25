@@ -26,7 +26,8 @@ const Home = () => {
     "Believe in instinct, keep betting on yourself and move out of your comfort zone. if you don't believe in yourself, why would someone else believe in you?",
     "Life's unpredictable. Don't take it too seriously, and try to keep a balanced outlook, optimistic, not pessimistic. Think only on controllable things.",
     "On one hand, you're wasting time scrolling and watching aimlessly. On the other, you claim you're too busy and don't have time. It's one thing to lie to others, but never cheat to yourself.",
-    "I am constantly in war with myself not with others. I'm trying to be better than I was yesterday."
+    "I am constantly in war with myself not with others. I'm trying to be better than I was yesterday.",
+    "We alwasy think about failure, but what if someone say after exact 50 rejections , you'll get success? still you'll think about failure?"
   ];
 
   return (
