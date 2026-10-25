@@ -18,7 +18,7 @@ const AboutMe = () => (
     <p className="spaced-text">
     I've worked on different technologies like: Golang, C++, Python, Java, JS/TS, GraphQL, SQL, NoSQL, Kafka, AWS (Lambda, Kinesis, SQS, SNS, S3, CloudWatch, MQ, Agent core ), Docker, Kubernetes, Snowflake, Airflow, Claude Code, AI Gateway, Claude code, claude sdk, LLM, Hindsight, MongoDb, Agents and many more,  as per requirements. I believe its just the tools and can be switch to other if require to solve our usecase. <br/> <br/> I always try to understand the fundamental principles behind any technology and enjoy in deep diving. By focusing on first-principle thinking, I’m able to look at problems differently and think outside the box.
     </p>
-   <p className="spaced-text"> <b>I have been doing this since 4 and half years now. Let's see what future holds for me. </b></p>
+   <p className="spaced-text"> <b>I have been doing this since 4 and half years now. Let's see what future holds for me. I am great believer of flexibility and adaptability. </b></p>
     
 
 
