@@ -479,6 +479,7 @@ body.dark-theme .markdown-content a {
 .markdown-content h5,
 .markdown-content h6 {
   color: #2c3e50; /* Darker color for headings */
+  scroll-margin-top: 1.5rem;
 }
 
 .markdown-content p {

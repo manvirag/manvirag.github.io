@@ -1,6 +1,14 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 20,
+    title: "the formula: 5 laws of success",
+    subheading: "notes from Albert-László Barabási's book on how success actually works",
+    publishedDate: "2026-10-25",
+    link: "/writing/20",
+    tags: ["life", "mental model", "2026"]
+  },
+  {
     id: 19,
     title: "how different muscles work in the gym [as per 2026 knowledge, In Progress]",
     subheading: "muscle groups, what each exercise actually hits, and a simple split for an athletic frame",
