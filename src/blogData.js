@@ -1,12 +1,20 @@
 // src/blogData.js
 export const blogData = [
   {
+    id: 21,
+    title: "clear thinking book notes",
+    subheading: "notes from Shane Parrish's book on defaults, strength, safeguards, and better decisions",
+    publishedDate: "2026-10-31",
+    link: "/writing/21",
+    tags: ["life", "mental model", "2026","book notes"]
+  },
+  {
     id: 20,
     title: "the formula: 5 laws of success",
     subheading: "notes from Albert-László Barabási's book on how success actually works",
-    publishedDate: "2026-10-25",
+    publishedDate: "2026-09-25",
     link: "/writing/20",
-    tags: ["life", "mental model", "2026"]
+    tags: ["life", "mental model", "2026","book notes"]
   },
   {
     id: 19,
